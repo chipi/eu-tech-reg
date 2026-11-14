@@ -12,7 +12,7 @@ used throughout. Read first if any term below is new.*
 | [01 — Vision](01-vision.md) | Why this exists, for whom, what success looks like, what it is not |
 | [02 — Project concept](02-project-concept.md) | What the map holds, the ways in, how a fact stays true |
 | [03 — Data catalog](03-data-catalog.md) | Where every fact comes from |
-| 04 — Architecture | How it is built (not written yet) |
+| [04 — Architecture](04-architecture.md) | How it is built and run |
 
 ## What this project adds over EUR-Lex and Cellar
 

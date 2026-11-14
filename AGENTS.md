@@ -40,11 +40,13 @@ its citation, or is not given. Vision: `docs/concept/01-vision.md`.
 
 1. **Not legal advice; cite or stay silent.** Said on every page and in every MCP answer. An
    answer that cannot point to an article is not given.
-2. **Point, don't copy.** Link to EUR-Lex; quote only short passages where needed.
-3. **Every fact sourced and dated.** A field without a source link and a read date is marked
+2. **Independent, not the EU.** Every page and MCP answer also says the project is independent
+   and not affiliated with the European Union (operator, 2026-11-14): the domain is `.eu`.
+3. **Point, don't copy.** Link to EUR-Lex; quote only short passages where needed.
+4. **Every fact sourced and dated.** A field without a source link and a read date is marked
    unchecked. Identifiers (CELEX, ELI, dates) are checked against EUR-Lex when written, never
    from memory.
-4. **Hand-written fields stay human-reviewed.** Who an act applies to and the explanations are
+5. **Hand-written fields stay human-reviewed.** Who an act applies to and the explanations are
    the operator's to approve; the scheduled pull only proposes changes to metadata.
 
 ---

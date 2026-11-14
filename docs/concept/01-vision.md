@@ -136,6 +136,7 @@ source it can quote. A map built for MCP from the start gives it one.
 | Not a… | Because… |
 | --- | --- |
 | **Legal advice, or a legal advisory** | It helps find information: what the text says and where. It never assesses your situation; the official text and your counsel are what count. Said on every page and in every answer. |
+| **An official EU site** | It is an independent project, not affiliated with the European Union or any of its institutions — said on every page next to the not-advice notice (operator, 2026-11-14). |
 | **A chatbot** | On the web you browse; for questions in words you bring your own agent over MCP. |
 | **A copy of the texts** | It links to EUR-Lex and quotes only short passages where needed. |
 | **An answer without a source** | If the map cannot cite it, it does not say it. |

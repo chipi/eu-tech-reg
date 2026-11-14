@@ -138,11 +138,15 @@ First tools:
 
 **Every answer has the same envelope:**
 
-- the facts, each with its citation and read date;
+- the facts, each with its **provenance and two links**: the official text on EUR-Lex, and a
+  permalink back to the map's own page for that record (operator, 2026-11-14) — so whatever an
+  agent passes on carries its proof and its way back here
+  ([04, section 5](04-architecture.md#5-the-mcp-server));
 - **what this answer does not cover** (unchecked fields left out, national rules, the content of
   standards);
-- the notice: *information from the official sources, not legal advice; the official text and
-  your counsel are what count*.
+- the notices: *information from the official sources, not legal advice; the official text and
+  your counsel are what count*; *independent, not affiliated with the European Union*;
+- an attribution line to copy as is (the records are CC BY 4.0).
 
 ## 6. Questions the map is built to answer
 
