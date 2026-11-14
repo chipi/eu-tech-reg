@@ -47,6 +47,15 @@
         ],
         "createdAt": "2026-11-14T15:55:23.953Z",
         "reason": "operator approved the orienteering comp (2026-11-14) whose EU Tech Reg wordmark is this purple; the only hit on this page is the wordmark (#4f1f87)"
+      },
+      {
+        "rule": "repeated-container-text",
+        "value": "*",
+        "files": [
+          "docs/mockups/ai-act.html"
+        ],
+        "createdAt": "2026-11-14T16:49:53.298Z",
+        "reason": "build thread decision, not the operator's: 'Obligations not yet broken down' is each route row's own record state (02 §8 pass state); rows will differ as pass 2 lands"
       }
     ]
   }

@@ -48,6 +48,9 @@ its citation, or is not given. Vision: `docs/concept/01-vision.md`.
    from memory.
 5. **Hand-written fields stay human-reviewed.** Who an act applies to and the explanations are
    the operator's to approve; the scheduled pull only proposes changes to metadata.
+6. **Synthesized content is labelled and gated.** Anything generated (reads, figures) is labelled as
+   EU Tech Reg's interpretation and is published only after the project's `legal-advisor` agent
+   (`.claude/agents/legal-advisor.md`) returns PUBLISH. No do's and don'ts; no "you must".
 
 ---
 

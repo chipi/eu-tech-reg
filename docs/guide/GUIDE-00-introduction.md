@@ -6,7 +6,8 @@ EU Tech Reg is **an open map of EU technology regulation**, for people building 
 robots in Europe and for the agents they work with.
 
 You bring a question — *what applies to what we build, from when, and where does it say so* — and
-the map shows you the acts that reach you, the articles to read for your role, and when each part
+the map shows you the acts that may apply, where each one says who it covers, the articles to
+read for what you do, and when each part
 applies. Every fact on it links to the official text on EUR-Lex.
 
 EU regulation is complex. The map exists so that people building in Europe do not give up in front
@@ -42,6 +43,6 @@ Stated plainly, because it shapes everything else:
 ## What is in it so far
 
 The AI Act, as the first act, with its articles, its application dates after the Digital Omnibus
-on AI, and the acts and guidelines beside it. The GDPR, Data Act, Machinery Regulation, Cyber
-Resilience Act and Product Liability Directive follow, one at a time; until then they are marked
-"Not yet" wherever they appear.
+on AI, and the acts and guidelines beside it. The first pass adds the GDPR, the Data Act and the
+Cyber Resilience Act; the Machinery Regulation and the Product Liability Directive follow. Until
+an act is read it is marked "Not yet" wherever it appears.

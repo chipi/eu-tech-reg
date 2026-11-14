@@ -19,9 +19,13 @@ with its citation, to a finish flag.
 
 That one picture carries the product's position (vision, [01](01-vision.md)):
 
-- **The terrain is the law, and it is the same for everyone.** We draw it; we do not move it.
-- **The course is the reader's.** They choose their role; the route is drawn for it. Choosing a
-  route is the reader's act — the map never says which role they hold.
+- **The terrain is our reading of the law, the same for everyone.** Seven stages — scope,
+  general-purpose models, banned practices, is it high-risk, requirements, conformity, on the
+  market — are EU Tech Reg's reading path through the act, not its chapter structure; every
+  control on it is the act's own article.
+- **The course is the reader's.** They answer what they do — build an AI system, use one, build
+  a general-purpose model, or not high-risk / not sure yet — and the route is drawn for it. A
+  route is a reading list; the flag marks its end, never that anything is done.
 - **Every control is an article you can open.** The picture is a way into the text, not a summary
   standing in for it.
 
@@ -110,7 +114,15 @@ between text and map, then a three-column band (route, dates, at a glance). At 1
 everything stacks; at 640px and below the map is redrawn as stacked rows rather than shrunk. The
 breakpoints and values are in [UXS-000](../uxs/UXS-000-shared-tokens.md).
 
-## 9. Principles to protect
+## 9. Founder words first, legal words second
+
+The reader is asked in their own words — *What do you do with the AI system?* — with answers like
+*We build it and put it out under our name* and *We use it in our work*. The legal term comes
+second, as a teaching moment: "The AI Act calls this a **provider**", with a short summary of the
+act's definition and a link to it, set in a *Words to know* note so it never covers the map. The
+summaries are marked as ours; the definition article is the source (operator, 2026-11-14).
+
+## 10. Principles to protect
 
 When a future surface or the real build is tempted to bend these, it needs a decision first:
 
@@ -121,8 +133,16 @@ When a future surface or the real build is tempted to bend these, it needs a dec
 4. **State by line form plus a word.**
 5. **Redraw for small screens; never shrink a picture into unreadability.**
 6. **No sidebar tree over a wall of legal text.**
+7. **Founder words first, legal words second, explained.**
 
-## 10. Where the rest lives
+## 10a. Interpretation looks different
+
+Synthesized reads carry a solid hairline label — *Synthesis · EU Tech Reg's interpretation*, its
+review and map version — in the first screen; claims inside are highlighted back to their records.
+Solid, because dashed means "not yet". Figures that carry facts are SVGs built from the records;
+generated art is illustration only (UXS-013, the figure rule).
+
+## 11. Where the rest lives
 
 - **Values** (colours, type scale, radii, spacing): `DESIGN.md` and `.impeccable/design.json`;
   as the shared contract every surface uses: [UXS-000](../uxs/UXS-000-shared-tokens.md).

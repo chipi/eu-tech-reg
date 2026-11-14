@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Search — EU Tech Reg</title>
+<meta name="color-scheme" content="light dark">
+<script src="assets/theme.js"></script>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -16,13 +18,14 @@
   <nav class="acts" aria-label="Acts">
     <a href="ai-act.html">AI Act</a>
     <span class="not-yet-label">Not yet:</span>
-    <a class="not-yet" href="#">GDPR</a>
-    <a class="not-yet" href="#">Data Act</a>
-    <a class="not-yet" href="#">Machinery Regulation</a>
-    <a class="not-yet" href="#">Cyber Resilience Act</a>
-    <a class="not-yet" href="#">Product Liability Directive</a>
+    <span class="not-yet">GDPR</span>
+    <span class="not-yet">Data Act</span>
+    <span class="not-yet">Cyber Resilience Act</span>
+    <span class="not-yet">Machinery Regulation</span>
+    <span class="not-yet">Product Liability Directive</span>
   </nav>
-  <a class="search-field" href="search.html" aria-current="page"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Search EU Tech Reg</span></a>
+  <a class="search-field" href="search.html" aria-label="Search EU Tech Reg" aria-current="page"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Search EU Tech Reg</span></a>
+  <button id="theme" class="theme" type="button" aria-label="Dark theme" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 2.5 a7.5 7.5 0 0 1 0 15 z" fill="currentColor"/></svg></button>
 </header>
 
 <main class="page">
@@ -36,7 +39,10 @@
       <fieldset><legend>Act</legend>
         <label><input type="checkbox" name="act" value="ai-act" checked> AI Act</label>
         <label><input type="checkbox" disabled> GDPR · not yet</label>
+        <label><input type="checkbox" disabled> Data Act · not yet</label>
+        <label><input type="checkbox" disabled> Cyber Resilience Act · not yet</label>
         <label><input type="checkbox" disabled> Machinery Regulation · not yet</label>
+        <label><input type="checkbox" disabled> Product Liability Directive · not yet</label>
       </fieldset>
       <fieldset><legend>Kind</legend>
         <label><input type="checkbox" name="kind" value="article" checked> Articles and annexes</label>
@@ -54,16 +60,16 @@
       <h2 class="sr-only">Results</h2>
       <p class="cite" id="count" aria-live="polite"></p>
       <ul class="results" id="results">
-        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-6">Article 6 — Classification rules for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_6">EUR-Lex</a> · read 14 Nov 2026</p></li>
-        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-16">Article 16 — Obligations of providers of high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_16">EUR-Lex</a> · read 14 Nov 2026</p></li>
-        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-26">Article 26 — Obligations of deployers of high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_26">EUR-Lex</a> · read 14 Nov 2026</p></li>
-        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-27">Article 27 — Fundamental rights impact assessment for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_27">EUR-Lex</a> · read 14 Nov 2026</p></li>
-        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#anx_III">Annex III — High-risk AI systems referred to in Article 6(2)</a></h3><p class="cite">AI Act · Annex · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#anx_III">EUR-Lex</a> · read 14 Nov 2026</p></li>
-        <li data-act="ai-act" data-kind="date" data-force="binding"><h3><a href="ai-act.html#when">2 Dec 2027 — Chapter III Sections 1 to 3 for AI systems high-risk under Article 6(2) and Annex III</a></h3><p class="cite">AI Act · Date · Art. 113(c)(i) · set by Reg. (EU) 2026/1744 · not yet</p></li>
-        <li data-act="ai-act" data-kind="date" data-force="binding"><h3><a href="ai-act.html#when">2 Aug 2028 — the same, for AI systems high-risk under Article 6(1) and Annex I</a></h3><p class="cite">AI Act · Date · Art. 113(c)(ii) · set by Reg. (EU) 2026/1744 · not yet</p></li>
-        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-72">Article 72 — Post-market monitoring by providers and post-market monitoring plan for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_72">EUR-Lex</a> · read 14 Nov 2026</p></li>
-        <li data-act="ai-act" data-kind="beside" data-force="non-binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026XC06005">Guidelines on the transparency obligations under Article 50</a></h3><p class="cite">AI Act · Guidelines · non-binding · Commission communication, 12 Nov 2026</p></li>
-        <li data-act="ai-act" data-kind="beside" data-force="binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R2487">Implementing Regulation (EU) 2026/2487 — AI regulatory sandboxes</a></h3><p class="cite">AI Act · Implementing act · 10 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#provider-art-6">Article 6: Classification rules for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_6">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#provider-art-16">Article 16: Obligations of providers of high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_16">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#deployer-art-26">Article 26: Obligations of deployers of high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_26">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#deployer-art-27">Article 27: Fundamental rights impact assessment for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_27">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#anx_III">Annex III: High-risk AI systems referred to in Article 6(2)</a></h3><p class="cite">AI Act · Annex · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#anx_III">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="date" data-force="binding"><h3><a href="ai-act.html#when">2 Dec 2027: Chapter III Sections 1 to 3 for AI systems high-risk under Article 6(2) and Annex III</a></h3><p class="cite">AI Act · Date · Art. 113(c)<span class="pp">(i)</span> · set by Reg. (EU) 2026/1744 · not yet</p></li>
+        <li data-act="ai-act" data-kind="date" data-force="binding"><h3><a href="ai-act.html#when">2 Aug 2028: the same, for AI systems high-risk under Article 6(1) and Annex I</a></h3><p class="cite">AI Act · Date · Art. 113(c)<span class="pp">(ii)</span> · set by Reg. (EU) 2026/1744 · not yet</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#provider-art-72">Article 72: Post-market monitoring by providers and post-market monitoring plan for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_72">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="beside" data-force="non-binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026XC06005">Guidelines on the transparency obligations under Article 50</a></h3><p class="cite">AI Act · Commission guidelines · non-binding · Commission communication, 12 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="beside" data-force="binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R2487">Implementing Regulation (EU) 2026/2487: AI regulatory sandboxes</a></h3><p class="cite">AI Act · Implementing act · 10 Nov 2026</p></li>
       </ul>
       <p class="empty" id="empty">Nothing in the map matches. The map covers the AI Act so far; other acts are added one at a time.</p>
       <p class="cite">Mockup: filters a fixed list of checked records. The built site searches one Orama index, the same one agents query over MCP.</p>

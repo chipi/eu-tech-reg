@@ -22,6 +22,7 @@
 | `course-tint` | `#efe6fa` | Hover fills, search focus halo, agent call ground | Text |
 | `contour` | `#a8865a` | Dashed stage boundaries on the map | Text, state |
 | `stage-scope` | `#e3ebc3` | Map band: Scope | Text colour, gradients |
+| `stage-models` | `#cfe9e0` | Map band: General-purpose models | Text colour, gradients |
 | `stage-banned` | `#f7e27c` | Map band: Banned practices | Text colour, gradients |
 | `stage-highrisk` | `#f3d6b9` | Map band: Is it high-risk? | Text colour, gradients |
 | `stage-requirements` | `#c6e2f3` | Map band: Requirements | Text colour, gradients |
@@ -62,7 +63,7 @@ Fonts are self-hosted woff2 in `fonts/` (Barlow and Barlow Condensed, SIL OFL 1.
 | > 1400px | Tagline beside the wordmark, two lines |
 | ≤ 1400px | Tagline under the wordmark |
 | 1101–1250px | Acts nav tightens; search field shows its icon only |
-| ≤ 1100px | Tagline hidden; acts nav on its own row; every grid to one column; column rules become row rules; search filters collapse |
+| ≤ 1100px | Tagline hidden; acts nav on its own row; the stacked map replaces the wide one and the route box joins the flow; every grid to one column; column rules become row rules; search filters collapse |
 | ≤ 640px | Body 16px; the map redrawn as stacked rows; route box in the flow; acts nav one scrolling row with a fade; the role table stacks; the act strip hides |
 
 ## Acceptance criteria (every surface)

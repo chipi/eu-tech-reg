@@ -86,7 +86,7 @@ An example in that shape — the dates are the ones read in the consolidated Art
   parts: "Chapter III, Sections 1–3 (except Article 6(5)), for AI systems high-risk under Article 6(2) and Annex III"
   cite:
     text: 02024R1689-20260727#art_113      # the consolidated text, where it is read
-    set_by: 32026R1744                      # the act that set it: the Digital Omnibus on AI
+    set_by: 32026R1744                      # the act that introduced this value: the Digital Omnibus on AI
   read: 2026-11-14
   state: checked
   owner: hand
@@ -100,8 +100,9 @@ An example in that shape — the dates are the ones read in the consolidated Art
 ```
 
 `cite` holds identifiers, not URLs; the build turns them into EUR-Lex links for people and keeps
-them as identifiers for agents. `cite.set_by` is the published act that set the rule — the
-original act or an amending act (03, decision 2).
+them as identifiers for agents. `cite.set_by` is the published act that introduced the value, and
+`cite.wording_by` the act behind the `▼M` marker when it differs (03, decision 2); a citation links
+to the article and names the point in text (03, decision 3).
 
 ## 3. The build
 
@@ -161,9 +162,11 @@ Agreed (C): TypeScript, orrery as the model.
   | `read`, `state` | when it was read, checked or machine, any stale marker | `2026-11-14`, `checked` |
   | `map_version` | the commit the bundle was built from | `0eda5aa` |
 
-  And every answer ends with one line an agent can copy as is: *"Source: EU tech regulation map,
-  eutechreg.eu (CC BY 4.0), built from EUR-Lex; information, not legal advice; independent, not
-  affiliated with the EU."* — the attribution CC BY 4.0 asks for.
+  And every answer carries the two notices and one attribution line an agent can copy as is:
+  *"Source: EU Tech Reg, eutechreg.eu (CC BY 4.0), built from EUR-Lex."* — the attribution CC BY 4.0
+  asks for. The tools and the envelope are defined once,
+  in [02 §5](02-project-concept.md#for-agents-mcp); this section and every other document cite
+  that one.
 - **Permalinks never break.** A record's id never changes; a record that is retired keeps its
   page, marked *retired*, pointing to what replaced it — so a link an agent handed on years ago
   still lands.
@@ -206,11 +209,52 @@ Agreed (D), with orrery's lessons.
   into staleness.
 - **It refuses** a run that would empty an act or shrink it sharply, and says why in the run
   log.
-- **A token that can open PRs that trigger CI** — a GitHub App or a fine-grained token, not the
+- **A token that can open PRs that trigger CI** — a GitHub App (decision 4), not the
   default `GITHUB_TOKEN`, whose PRs start no workflows.
 - **Its own CI concurrency group**, so it never cancels a person's run.
 
 Age-based flags (02, section 7) need no pull: the build computes them from read dates.
+
+**Today's state is never stale** (operator, 2026-11-14): a **daily scheduled rebuild and deploy**
+refreshes every "applies / not yet" and every age flag, and the MCP server computes today's state
+per request from the dates in the bundle — so on the day a date passes, both already say so.
+
+## 7a. Syntheses and figures
+
+Agreed by the operator on 2026-11-14 (02 §5a). Generation is part of writing the map, not a
+service: there is still no model answering visitors.
+
+- **A brief per read** — act, worked example, or both — versioned in git: what it covers, its
+  taxonomy tags, the records it may use.
+- **Generated offline**, in batch, through the operator's LiteLLM (open-weight models), from the
+  bundle only; output written as files with provenance — brief, records used, map version, model,
+  prompt.
+- **Gated**: every statement carries a citation that exists in the bundle; every quote matches the
+  text; the synthesis label and both notices are present; no "you must"; then the **legal
+  advisor** reviews and must return PUBLISH.
+- **Kept true**: a changed record flags every read and figure that rests on it for regeneration
+  and re-review, through the re-reading queue.
+- **Figures**: an SVG generated from the records carries the facts and ships as is; Higgsfield
+  art may follow later only as illustration, text-free or checked word by word
+  ([candidates and pipeline](../wip/FIGURES.md)).
+
+## 7b. The operator's chat (private)
+
+Agreed by the operator on 2026-11-14, modelled on orrery's (RFC-037 A01.7–A01.8,
+`server/lab-api/ask.ts` there): a chat **only the operator can use**, for exploring the map in
+words — not a public feature, so "no model serving the public" still holds.
+
+- **Its own small container** (`operator-api`) behind its own Caddy vhost, because the site is
+  static; nowhere linked, `noindex`. The unlisted address is obscurity, not security — **the gate
+  is the login**: sign in (Google identity, an allowlist of one), receive a session token, then
+  chat; no token, nothing.
+- **The model goes through the production LiteLLM** to an open-weight model on OpenRouter (the
+  DGX as an alternative backend, as in orrery); keys stay server-side.
+- **The model's tools are the MCP tools** (02 §5), from the same registry: it selects tools and
+  narrates, the records supply every fact, so its answers carry the same citations as an agent's.
+  Its own wording is interpretation, labelled as such, and is never published.
+- **Observability and limits** as in orrery: request ids, LLM metadata to the observability
+  stack, a per-session cap.
 
 ## 8. CI gates
 
@@ -267,7 +311,10 @@ box).
 ## 11. What comes next
 
 1. **The mockup** (operator, 2026-11-14): an act page, a view by role, the search page and a
-   cited MCP answer, with real AI Act content — to nail the approach before building.
+   cited MCP answer, with real AI Act content — to nail the approach before building. **Done, and
+   frozen as the skeleton** (operator, 2026-11-14): it is not expanded per act or per feature; the
+   build turns its HTML and CSS into the page templates that the records fill, so the mockup
+   becomes the MVP. New acts are the same patterns with their own records.
 2. **Phase 1, in slices**: the record schema and the AI Act's `act.yaml` and `structure.yaml`
    (pass 1, generated from the Cellar text); the bundle and the gates; the site pages; the MCP
    server; the pull; then pass 2, the obligations, article by article.

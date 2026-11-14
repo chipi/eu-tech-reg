@@ -50,7 +50,8 @@ Two kinds of content, never mixed:
 | **Guidance** | A delegated or implementing act, a guideline, a code of practice: what it concerns, its binding force (binding / non-binding / voluntary), the act and articles it serves | The general-purpose AI code of practice — voluntary — AI Act |
 | **Standard pointer** | Number, title, the act it serves, when it was cited in the Official Journal, where to buy it; nothing about its content | EN ISO 10218 — Machinery Regulation |
 
-**Every field** of every record carries:
+**Every record** carries (one provenance block for the record, a field-level block only where a
+field's source differs — 04, decision 1):
 
 - **a citation** — the EUR-Lex link, down to the article where it applies;
 - **a read date** — when the source was last read;
@@ -59,8 +60,10 @@ Two kinds of content, never mixed:
 - **an owner** — `machine` fields are the pull's to update; everything else is written by hand
   and changed only through review.
 
-A field that is `unchecked` is never served as a fact: the site shows it greyed with the word
-*unchecked*, and MCP answers leave it out and say so.
+A record that is `unchecked` is **not shown at all** — not on the site, not over MCP; the page
+shows the gap instead ("not yet broken down", "not yet read"), and an MCP answer lists it under
+*not covered*. Each act record also carries its pass state (02 §8: structure done, obligations
+done), so "not yet broken down" is data, not prose.
 
 ## 3. The shared vocabulary
 
@@ -131,7 +134,7 @@ First tools:
 | `find_acts(topic?, role?, product?)` | Which acts touch this |
 | `get_act(id)` | One act's record |
 | `get_obligations(act?, role?, product?, date?)` | The obligations matching a profile on a date |
-| `what_applies(role, product, date, established_in_eu?)` | The acts and obligations for a profile on a date, across acts |
+| `what_applies(role, product, date, act?, established_in_eu?)` | The acts and obligations for a profile on a date, across acts |
 | `timeline(from, to, act?)` | The dates in a window |
 | `related(id)` | What amends, implements, refers to, or is proposed to change an act |
 | `get_guidance(act, article?)` | Delegated acts, guidelines, codes of practice and standard pointers for an act |
@@ -146,7 +149,31 @@ First tools:
   standards);
 - the notices: *information from the official sources, not legal advice; the official text and
   your counsel are what count*; *independent, not affiliated with the European Union*;
-- an attribution line to copy as is (the records are CC BY 4.0).
+- the attribution line, the same string everywhere: *"Source: EU Tech Reg, eutechreg.eu (CC BY 4.0),
+  built from EUR-Lex."* (the records are CC BY 4.0).
+
+**This section is the one definition of the MCP tools and the answer envelope**; 04, the UXS
+documents, the guide and the mockup follow it.
+
+## 5a. Syntheses — the third kind of content
+
+Agreed by the operator on 2026-11-14. Besides **records** (facts) and **explanations** (plain words
+per act), the map publishes **syntheses**: short reads per act, per worked example, and where the
+two meet (the matrix, [UXS-013](../uxs/UXS-013-synthesized-reads.md)). They are EU Tech Reg's
+**interpretation**, and nothing about them may be mistaken for the law or for advice:
+
+- **Labelled on every screen** as *synthesis · EU Tech Reg's interpretation*, with the review and
+  the map version; records and quotes inside a read look different from the interpretation.
+- **Built only from the map's records** — offline, from a versioned brief per read, never from a
+  model's memory; every statement links to its record and article, and the read ends with its
+  citations.
+- **No do's and don'ts.** The allowed sections are *what the texts ask of companies like this*,
+  *questions to bring to counsel* and *common misreadings*.
+- **Reviewed by the legal advisor** (`.claude/agents/legal-advisor.md`) before it is published;
+  a read it does not pass is not published.
+- **Kept true**: when a record a read rests on changes, the read is flagged and re-reviewed.
+- **Figures where a picture replaces a page**, built from the records
+  ([candidates](../wip/FIGURES.md)).
 
 ## 6. Questions the map is built to answer
 
@@ -241,8 +268,9 @@ like, with real AI Act content.
 
 Then phase 1 builds the whole path for **the AI Act**, first of the vision's first acts, end to
 end: record format, the act done (section 8), its page, the MCP server answering for it, the pull
-for its metadata. Then the GDPR, Data Act, Machinery Regulation, Cyber Resilience Act and Product
-Liability Directive, one at a time; then the cross-act views.
+for its metadata. **The first pass then adds the GDPR, the Data Act and the Cyber Resilience Act**
+(operator, 2026-11-14: AI, data and cyber together), and the cross-act views, which only become
+useful with more than one act. The Machinery Regulation and the Product Liability Directive follow.
 
 The AI Act is the largest of the six — 113 articles, 13 annexes and 180 recitals as published
 (counted in the Cellar text, 2026-11-14; the consolidated text of 2026-07-27 has 119 article

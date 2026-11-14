@@ -22,15 +22,23 @@ The site is generated from the records; nothing here is written by hand page by 
 
 | Surface | What the reader does there | UXS | Mockup |
 | --- | --- | --- | --- |
-| `act` | Sees one act as stages, picks a role, follows the course to the articles, sees when each part applies | [UXS-001](UXS-001-act-page.md) | [ai-act.html](../mockups/ai-act.html) |
+| `act` | Sees one act as stages, answers what they do, follows the course to the articles, sees when each part applies | [UXS-001](UXS-001-act-page.md) | [ai-act.html](../mockups/ai-act.html) |
 | `role` | Sees one shared role across every act, each act's own term beside it | [UXS-002](UXS-002-role-view.md) | [role.html](../mockups/role.html) |
 | `search` | Finds records by words and filters | [UXS-003](UXS-003-search.md) | [search.html](../mockups/search.html) |
 | `agent-answer` | (Agent) receives cited facts; (person) sees what an agent gets | [UXS-004](UXS-004-agent-answer.md) | [mcp-answer.html](../mockups/mcp-answer.html) |
-| `home` | Starts somewhere | Not specified yet | [index.html](../mockups/index.html) (mockup index only) |
+| `home` | Finds a way in: a role, an act, the agent door | [UXS-005](UXS-005-home.md) | — |
+| `article` | Reads one article broken down into obligations | [UXS-006](UXS-006-article-page.md) | — |
+| `timeline` | Sees what starts when, across acts | [UXS-007](UXS-007-timeline.md) | — |
+| `relations` | Sees what amends, implements or guides an act | [UXS-008](UXS-008-relation-map.md) | — |
+| `outside` | (A non-EU company) sees reach, representation and EU-side roles per act | [UXS-009](UXS-009-coming-from-outside.md) | — |
+| `queue` | Sees which records are due for re-reading, and why | [UXS-010](UXS-010-re-reading-queue.md) | — |
+| `for-agents` | Connects an agent: endpoint, tools, the citation contract | [UXS-011](UXS-011-for-agents.md) | — |
+| `examples` | Starts from a fictional company like theirs, walked through the map | [UXS-012](UXS-012-worked-examples.md) | — |
+| `reads` | Reads a short, labelled synthesis per act, per example, or where they meet | [UXS-013](UXS-013-synthesized-reads.md) | — |
 | `project` | Reads how the map is made: concept, RFCs, ADRs, this IA | The docs site as today | — |
 
-Not yet designed: the timeline view across acts, the relation map, "coming from outside the EU",
-the re-reading queue (02, section 7).
+Every surface named in [02](../concept/02-project-concept.md) section 5 now has a UXS; UXS-005 to
+UXS-011 have no mockup yet.
 
 ## §navigation
 
@@ -56,7 +64,13 @@ never changes**. A retired record keeps its page, marked retired, pointing to wh
 | `/acts/<act>/dates/#<date-id>` | a date record, e.g. `#high-risk-annex-iii` |
 | `/roles/<role>/` | role view, e.g. `/roles/makes-it/` |
 | `/search/?q=…` | search |
+| `/acts/<act>/relations/` | relation map |
+| `/timeline/` | timeline across acts |
+| `/coming-to-the-eu/` | coming from outside the EU |
+| `/project/re-reading/` | re-reading queue |
 | `/for-agents/` | what agents get, how to connect |
+| `/examples/`, `/examples/<slug>/` | worked examples |
+| `/reads/`, `/reads/…` | synthesized reads and the matrix |
 | `/project/…` | concept, RFCs, ADRs, this IA |
 | `mcp.eutechreg.eu/mcp` | the MCP endpoint |
 

@@ -63,7 +63,8 @@ The EU's official publisher. It publishes the [Official Journal](#official-journ
 
 #### Official Journal
 
-The EU's official gazette (OJ). An act is adopted when it is published here; the OJ edition is
+The EU's official gazette (OJ). An act is published here after it is adopted; publication starts
+the clock for its entry into force, and the OJ edition is
 the legally valid text. Its *L series* carries legislation, its *C series* information and
 notices (where many Commission guidelines appear).
 
@@ -71,8 +72,8 @@ notices (where many Commission guidelines appear).
 
 `eur-lex.europa.eu` — the Publications Office's website for people: search an act, read it in any
 of the 24 official languages, see what amends it and its consolidated versions. **The link a
-reader of this map follows to check a fact.** It does not answer scripted requests, so the
-project's programs do not read it ([03](03-data-catalog.md#1-the-sources)).
+reader of this map follows to check a fact.** The project's programs read [Cellar](#cellar)
+instead ([03](03-data-catalog.md#1-the-sources)).
 
 #### Cellar
 

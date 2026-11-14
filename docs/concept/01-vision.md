@@ -110,8 +110,13 @@ source it can quote. A map built for MCP from the start gives it one.
 
 ## Who it is for
 
-1. **Founders of AI and robotics startups** — what applies to what we build, from when, and what
-   we must do.
+**Anyone in founder mode** (operator, 2026-11-14): founding a company, or doing that job for one —
+a consultant or advisor hired to work it out, a team inside an SME or an enterprise taking on
+something new. Company size does not change the situation: someone has to find out what applies
+to what they build or bring in, from when, and where it says so.
+
+1. **Founders of AI and robotics startups**, and the **consultants, advisors and enterprise
+   teams** doing the same job — what applies to what we build, from when, and what the texts ask.
 2. **Investors** — what exposure a company carries and what lands in the next years.
 3. **Companies coming to the EU** — from the US and elsewhere: which rules reach them from
    outside, what they must put in place to enter, and where they stand.
@@ -182,6 +187,10 @@ investment — is added around that core.
 4. Machinery Regulation
 5. Cyber Resilience Act
 6. Product Liability Directive
+
+**The first pass covers four of them: the AI Act, the GDPR, the Data Act and the Cyber Resilience
+Act** — AI, data and cyber together (operator, 2026-11-14). The Machinery Regulation and the
+Product Liability Directive follow.
 
 Then the Data Governance Act and the Radio Equipment Directive. NIS2, in the
 [first idea](../wip/IDEA.md), moves out of the first wave: it binds organisations that are

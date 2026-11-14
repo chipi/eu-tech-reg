@@ -12,7 +12,7 @@ map is public. Your agent asks; the map answers with facts and their proof; your
 reasoning.
 
 Tools it will offer include `what_applies` (the acts and articles for a role on a date), `timeline`
-(dates in a window), `get_act`, `get_obligations`, `related`, `get_guidance` and `search`
+(dates in a window), `find_acts`, `get_act`, `get_obligations`, `related`, `get_guidance` and `search`
 (04 — Architecture, section 5).
 
 ## What comes back

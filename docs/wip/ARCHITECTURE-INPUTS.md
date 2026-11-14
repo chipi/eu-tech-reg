@@ -29,6 +29,11 @@ Then, after the inputs below:
   with the European Union", next to the not-legal-advice notice — a `.eu` name can read as
   official.
 - **Shared family footer**: yes.
+- **Operator-only chat** (2026-11-14), like orrery's: hidden, behind a login and a token, through
+  the production LiteLLM to an open-weight model on OpenRouter; tools are the map's MCP tools.
+  Orrery's references: `docs/rfc/RFC-037.md` A01.7–A01.8 (lab-api container, Google sign-in,
+  allowlist, LiteLLM → OpenRouter | DGX) and `server/lab-api/ask.ts` (one tool registry for MCP
+  and the ask-box). Recorded in 04 §7b.
 
 ## Hosting (from the websites session, chipi/humancopilot.eu, 2026-11-14)
 

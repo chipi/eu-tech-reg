@@ -17,7 +17,12 @@ web
 
 ## Users
 
-**Founders of AI and robotics startups first** (operator, 2026-11-14). Their situation: a small
+**Anyone in founder mode** (operator, 2026-11-14): founding a company, or doing that job for one —
+a consultant or advisor hired to work it out, a team inside an SME or an enterprise taking on
+something new. Company size does not change the situation: someone has to find out what applies
+to what they build or bring in, from when, and where it says so.
+
+**The reference case is the founder of an AI or robotics startup** (operator, 2026-11-14): a small
 team putting an AI system or a robot on the EU market, facing the AI Act, the Machinery
 Regulation, the Cyber Resilience Act, the GDPR, the Data Act and product liability at once. Their
 job: find out what applies to what they build, from when, and where exactly it says so — and
@@ -71,8 +76,8 @@ Journal; and an MCP interface. **Every fact carries its citation, or it is not s
 - **Cite or stay silent**; **point, don't copy** — link to EUR-Lex, quote only short passages.
 - **Unchecked facts are never served**; stale facts are served with a marker.
 - English only, with links to every language version on EUR-Lex.
-- First acts: AI Act (phase 1), GDPR, Data Act, Machinery Regulation, Cyber Resilience Act,
-  Product Liability Directive. National law out at first.
+- First acts: the first pass is the AI Act (phase 1), GDPR, Data Act and Cyber Resilience Act;
+  the Machinery Regulation and Product Liability Directive follow. National law out at first.
 - Terms: act, article, obligation, record, consolidated version, CELEX, ELI — defined in the
   glossary (`docs/concept/00-introduction.md`).
 
@@ -81,6 +86,10 @@ Journal; and an MCP interface. **Every fact carries its citation, or it is not s
 - **Name on the page: EU Tech Reg** (operator, 2026-11-14). Address: `eutechreg.eu`, with
   `eu-tech-reg.eu` redirecting to it.
 - **Voice**: plain words for a founder, not a lawyer; present-tense, declarative; no "you must".
+- **Founder words first, legal words second** (operator, 2026-11-14): every surface asks in the
+  founder's words ("We build it and put it out under our name"), then names the legal term
+  ("The AI Act calls this a *provider*") and explains it with its source — to teach the words a
+  visitor will meet in the law, without starting with them.
 - **Licence**: records and explanations CC BY 4.0; code MIT.
 
 ## Evidence on Hand

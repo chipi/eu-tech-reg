@@ -20,7 +20,7 @@ each field is read from. The test case throughout is the AI Act, Regulation (EU)
 | --- | --- | --- | --- |
 | **Cellar SPARQL** `https://publications.europa.eu/webapi/rdf/sparql` | Metadata for every act: identifiers, dates, type, relations, subjects, national measures | Open, no login; SPARQL over HTTP GET; CSV or JSON results | **Checked**: queries answered in seconds |
 | **Cellar content** `http://publications.europa.eu/resource/celex/{CELEX}` | The text of an act or a consolidated version, by content negotiation | Open; `Accept: application/xhtml+xml`, `Accept-Language: eng` | **Checked**: XHTML of the AI Act (1.26 MB) and of its consolidated version of 2026-07-27 |
-| **EUR-Lex website** `https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:{CELEX}` | The same texts for people; the link a reader follows | Browser | Scripted requests (curl, a fetcher) got a generic page, not the act. **Links for people only; never a machine source** |
+| **EUR-Lex website** `https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:{CELEX}` | The same texts for people; the link a reader follows | Browser | Not reached: on 2026-11-14 EUR-Lex was temporarily not fully available (its own notice, seen by the operator in a browser); scripts got the same Official Journal landing page. Whether EUR-Lex serves the act to scripts when it is healthy is **not known**. **Links for people; Cellar is the machine source either way** |
 | **ELI** `http://data.europa.eu/eli/reg/2024/1689/oj` | The European Legislation Identifier, a stable URI for the act | Resolves by redirect | Stored as an identifier (from Cellar). The article-level ELI tried (`…/art_9/oj`) redirected to EUR-Lex's "today's OJ" page from a script: **not used for article links** until checked in a browser |
 | **EUR-Lex web service** | Expert search over EUR-Lex | SOAP, believed to need registration | **Not checked**; not needed while Cellar answers |
 | **Commission and AI Office pages** | Guidelines and codes of practice not published in the Official Journal | Web pages, PDFs | **Not checked**; read by hand, per document |
@@ -79,12 +79,14 @@ signal.
 
 ### Articles, annexes, recitals
 
-From the Cellar XHTML of the text (published, and each consolidated version):
+From the Cellar XHTML of the text. Paragraph anchors exist only in the **published** act, not in
+the consolidated text (checked by an independent review, 2026-11-14: 509 in the published AI Act,
+0 in the consolidated version):
 
 | Unit | Anchor in the XHTML | AI Act count (published) |
 | --- | --- | --- |
 | Article | `id="art_9"` | 113 (119 anchors in the consolidated text of 2026-07-27) |
-| Paragraph | `id="009.001"` | — |
+| Paragraph | `id="009.001"` (published act only) | — |
 | Annex | `id="anx_III"` | 13 |
 | Recital | `id="rct_…"` | 180 |
 
@@ -94,8 +96,10 @@ touched.
 
 **The citation link** a reader follows is the EUR-Lex page with the article anchor
 (`…?uri=CELEX:02024R1689-20260727#art_113`). That EUR-Lex uses the same anchors as the Cellar
-XHTML is **believed, not checked**: EUR-Lex did not answer scripted requests. Checked by hand in
-a browser before the first record ships.
+XHTML is **believed, not checked**: on 2026-11-14 EUR-Lex was temporarily not fully available (its
+own notice, seen by the operator in a browser); scripts got the same Official Journal landing page.
+Checked by hand in a browser once EUR-Lex is
+fully available, before the first record ships.
 
 ### Obligations, vocabulary mappings, explanations
 
@@ -137,7 +141,8 @@ Publications Office on its behalf (read in Cellar, 2026-11-14; in force):
 
 The Commission's legal notice licenses its website content under **CC BY 4.0** unless otherwise
 indicated (search result, 2026-11-14; the notice itself and EUR-Lex's own legal notice **not
-read** — EUR-Lex did not answer scripted requests).
+read** — on 2026-11-14 EUR-Lex was temporarily not fully available (its own notice, seen by the
+operator in a browser); scripts got the same Official Journal landing page).
 
 What this means for the map:
 
@@ -165,7 +170,7 @@ What this means for the map:
 
 | Item | Why it matters | How to check |
 | --- | --- | --- |
-| EUR-Lex article anchors (`#art_N`) | Every citation link depends on them | Open a few in a browser |
+| EUR-Lex article anchors (`#art_N`) | Every citation link depends on them | Open a few in a browser once EUR-Lex is fully available (it was not on 2026-11-14) |
 | Article-level ELI URIs | A stabler citation than a EUR-Lex URL | Resolve in a browser; read the ELI documentation |
 | EUR-Lex's own legal notice | The exact reuse wording for EUR-Lex content | Read it in a browser |
 | Cellar rate limits and terms of service | The pull's schedule and politeness | Read the Publications Office's documentation |
@@ -176,7 +181,7 @@ What this means for the map:
 
 ## 6. Decisions
 
-Agreed by the operator on 2026-11-14:
+Agreed by the operator on 2026-11-14 (3 after an independent review):
 
 1. **Licence.** The map's own work — records and explanations — under **CC BY 4.0**, as the EU
    licenses its own content; the code under **MIT**, as in the operator's other projects.
@@ -184,5 +189,12 @@ Agreed by the operator on 2026-11-14:
    itself: "This text is meant purely as a documentation tool and has no legal effect. The
    authentic versions of the relevant acts … are those published in the Official Journal" (read
    2026-11-14). So the map **reads the consolidated text, and cites each date and obligation
-   twice**: to the consolidated version, and to the published act that set it — the original
-   act, or the amending act named by the `▼M` marker.
+   twice**: to the consolidated version, and to the published act that **introduced the value**.
+   That is not always the act named by the `▼M` marker: the Digital Omnibus rewrote Article
+   113(a) to add an exception, so the passage carries `▼M1`, but the date 2 February 2025 it
+   repeats was set by the AI Act itself. A record therefore keeps two fields — `set_by` (the act
+   that introduced the value) and `wording_by` (the act behind the `▼M` marker) — and a person
+   checks every record where the two differ (independent review, 2026-11-14).
+3. **Citation unit** (operator, 2026-11-14). Because the consolidated text has article anchors
+   only, **a citation links to the article, and names the paragraph or point in its text** —
+   "Article 16, point (f)". One link per obligation, and it always lands.

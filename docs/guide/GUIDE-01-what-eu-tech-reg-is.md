@@ -2,9 +2,10 @@
 
 ## A map, drawn over the law
 
-Each act is drawn as **terrain**: its stages from left to right — scope, banned practices, is it
-high-risk, requirements, conformity, on the market. The terrain is the same for everyone; it is the
-law's own structure, drawn by us.
+Each act is drawn as **terrain**: stages from left to right — scope, general-purpose models,
+banned practices, is it high-risk, requirements, conformity, on the market. The terrain is the
+same for everyone. The stages are our reading path through the act, not its chapters; every
+article on them is the act's own.
 
 Over it runs **your course**: a purple line from a start triangle, through numbered controls, to a
 finish flag. Each control is an article to read for the role you chose. The route is ours — a

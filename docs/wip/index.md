@@ -18,3 +18,4 @@ Notes in progress: plans, ideas, analyses. Promotion targets:
   operator to cut.
 - [Inputs for 04](ARCHITECTURE-INPUTS.md) — hosting, MCP and pull lessons from the operator's other
   projects and their sessions.
+- [Figures](FIGURES.md) — where a picture replaces a page: candidates and the SVG-first pipeline.

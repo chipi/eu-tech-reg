@@ -7,6 +7,8 @@ repo_name: chipi/eu-tech-reg
 repo_url: https://github.com/chipi/eu-tech-reg
 edit_uri: edit/main/docs/
 
+copyright: "Information, not legal advice — the official text and your counsel are what count. Independent project, not affiliated with the European Union. Records CC BY 4.0, code MIT."
+
 docs_dir: docs
 site_dir: site
 
@@ -85,6 +87,15 @@ nav:
     - UXS-002 — Your role across every act: uxs/UXS-002-role-view.md
     - UXS-003 — Search: uxs/UXS-003-search.md
     - UXS-004 — What your agent gets back: uxs/UXS-004-agent-answer.md
+    - UXS-005 — Home: uxs/UXS-005-home.md
+    - UXS-006 — The article page: uxs/UXS-006-article-page.md
+    - UXS-007 — The timeline across acts: uxs/UXS-007-timeline.md
+    - UXS-008 — The relation map: uxs/UXS-008-relation-map.md
+    - UXS-009 — Coming from outside the EU: uxs/UXS-009-coming-from-outside.md
+    - UXS-010 — The re-reading queue: uxs/UXS-010-re-reading-queue.md
+    - UXS-011 — For agents: uxs/UXS-011-for-agents.md
+    - UXS-012 — Worked examples: uxs/UXS-012-worked-examples.md
+    - UXS-013 — Synthesized reads and the matrix: uxs/UXS-013-synthesized-reads.md
   - User guide:
     - Overview: guide/index.md
     - 00 — Introduction: guide/GUIDE-00-introduction.md
@@ -105,6 +116,7 @@ nav:
     - The idea: wip/IDEA.md
     - Candidate scope: wip/SCOPE.md
     - Inputs for 04: wip/ARCHITECTURE-INPUTS.md
+    - Figures: wip/FIGURES.md
   - History:
     - Overview: history/index.md
 

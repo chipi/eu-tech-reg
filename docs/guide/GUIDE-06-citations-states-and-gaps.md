@@ -7,7 +7,10 @@ same few marks everywhere, so you learn them once.
 
 The small line under a fact says where it comes from: the article, and the act that set it. For the
 AI Act's dates, that is a point of Article 113 and either the AI Act itself or the Digital Omnibus
-that changed it. Follow the link to read the text; the official text is what counts.
+that changed it. Follow the link to read the text; the official text is what counts. A citation
+names the
+consolidated version it was read in; when EUR-Lex publishes a newer one, its page may show a
+"newer version" notice until the map has re-read the act (see the re-reading queue).
 
 ## The marks
 

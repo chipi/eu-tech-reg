@@ -18,7 +18,9 @@ beside the shared one.
 - **The act's own term is always shown.** The shared role is our grouping, said as such.
 - **Nothing filled from memory.** An act's term appears only once it is read from its definitions
   article; until then the row says "Not yet read".
-- **The course continues across acts**, dashed where the map has not read the act yet.
+- **The course runs only through acts the map has read.** Unread acts show as terrain marked "not
+  yet read", with no course: dashed keeps one meaning across the site, a date not reached yet
+  (operator, 2026-11-14, after the finish review).
 
 ## Scope
 
@@ -34,14 +36,14 @@ acts table, the "nothing from memory" note.
 
 ```text
 Map / Roles
-Your role, across every act
-lede: acts name roles in their own words; the grouping is ours
-[ Makes it | Uses it in their business ]
+What you do, across every act
+lede: start from what you do; each act's legal name for it shown beside yours
+[ We build it and put it out under our name | We use it in our work ]
 ┌ AI Act ┬ GDPR ┬ Data Act ┬ Machinery ┬ CRA ┬ PLD ┐  six-act strip
-│ ▵─(AI) - - - - - - - - - - - - - - - - - - - -   │  course: solid in read acts,
-│        not yet read  not yet read …              │  dashed through the rest
+│ ▵─(AI)                                           │  course: only in read acts;
+│        not yet read  not yet read …              │  none through the rest
 └──────────────────────────────────────────────────┘
-ACT | THE ACT'S OWN TERM | ARTICLES TO READ | STATE
+ACT | WHAT THE ACT CALLS YOU | ARTICLES TO READ | STATE
 AI Act | Provider | Article 16 …, the route … | Titles checked …
 GDPR | — | Not yet read | Next in the first wave
 …
@@ -57,7 +59,7 @@ The strip hides. The table stacks into one block per act, each cell as a label a
 | --- | --- | --- | --- |
 | Role segment | Outlined | Filled `course`; table and strip show that role | — |
 | Act row | Act, term in `title` ink, articles linked, state with cite | — | All cells `ink-2`, term "—", "Not yet read" |
-| Strip | Stage tints per act, dashed contour boundaries | — | Dashed course leg, "not yet read" |
+| Strip | The read act tinted as terrain, dashed contour boundaries | — | Blank ground, no course, "not yet read" |
 
 ## Accessibility
 
