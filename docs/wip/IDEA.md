@@ -1,6 +1,7 @@
 # Idea — an open map of EU tech regulation
 
-**Status:** idea (operator, 2026-11-14). Nothing built yet.
+**Status:** idea (operator, 2026-11-14), superseded by the [vision](../concept/01-vision.md):
+audience, depth, scope and first acts changed there. Kept as the first write-up.
 
 ## Why
 

@@ -1,0 +1,94 @@
+site_name: eu-tech-reg
+site_description: "An open, structured map of EU technology regulation that points to the official sources. Not legal advice."
+site_url: https://chipi.github.io/eu-tech-reg/
+site_author: Marko Dragoljevic
+
+repo_name: chipi/eu-tech-reg
+repo_url: https://github.com/chipi/eu-tech-reg
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Concept:
+    - Overview: concept/index.md
+    - 01 — Vision: concept/01-vision.md
+  - Requirements (PRD):
+    - Overview: prd/index.md
+  - Proposals (RFC):
+    - Overview: rfc/index.md
+  - Decisions (ADR):
+    - Overview: adr/index.md
+  - In progress:
+    - Overview: wip/index.md
+    - The idea: wip/IDEA.md
+    - Candidate scope: wip/SCOPE.md
+  - History:
+    - Overview: history/index.md
+
+not_in_nav: |
+  */*_TEMPLATE.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chipi/eu-tech-reg
