@@ -1,3 +1,6 @@
 site/
 .venv/
 node_modules/
+# DESIGN.md is Impeccable's machine-read format (YAML header, its own heading schema such as
+# "### Do:" and repeated "Named Rules"); rewrapping or renaming headings can break its parser.
+DESIGN.md

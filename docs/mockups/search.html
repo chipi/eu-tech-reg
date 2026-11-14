@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search — EU Tech Reg</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="masthead">
+  <a class="brand" href="index.html">
+    <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M3 6 l12 4 v20 l-12 -4z M31 6 l-12 4 v20 l12 -4z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+    <b>EU Tech Reg</b>
+    <span>Open reference map of EU technology regulation for startup founders</span>
+  </a>
+  <nav class="acts" aria-label="Acts">
+    <a href="ai-act.html">AI Act</a>
+    <span class="not-yet-label">Not yet:</span>
+    <a class="not-yet" href="#">GDPR</a>
+    <a class="not-yet" href="#">Data Act</a>
+    <a class="not-yet" href="#">Machinery Regulation</a>
+    <a class="not-yet" href="#">Cyber Resilience Act</a>
+    <a class="not-yet" href="#">Product Liability Directive</a>
+  </nav>
+  <a class="search-field" href="search.html" aria-current="page"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Search EU Tech Reg</span></a>
+</header>
+
+<main class="page">
+  <p class="breadcrumb"><a href="index.html">Map</a> / Search</p>
+  <h1>Search the map</h1>
+  <label class="searchbox"><svg viewBox="0 0 20 20" width="22" height="22" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="var(--course)" stroke-width="2"/><path d="M13 13 l5 5" stroke="var(--course)" stroke-width="2" stroke-linecap="round"/></svg><span class="sr-only">Search</span><input id="q" type="search" value="high-risk" autocomplete="off"></label>
+
+  <div class="two">
+    <details class="filters" open><summary>Filters</summary>
+    <form class="facets" aria-label="Filters">
+      <fieldset><legend>Act</legend>
+        <label><input type="checkbox" name="act" value="ai-act" checked> AI Act</label>
+        <label><input type="checkbox" disabled> GDPR · not yet</label>
+        <label><input type="checkbox" disabled> Machinery Regulation · not yet</label>
+      </fieldset>
+      <fieldset><legend>Kind</legend>
+        <label><input type="checkbox" name="kind" value="article" checked> Articles and annexes</label>
+        <label><input type="checkbox" name="kind" value="date" checked> Dates</label>
+        <label><input type="checkbox" name="kind" value="beside" checked> Beside the act</label>
+      </fieldset>
+      <fieldset><legend>Binding force</legend>
+        <label><input type="checkbox" name="force" value="binding" checked> Binding</label>
+        <label><input type="checkbox" name="force" value="non-binding" checked> Non-binding</label>
+      </fieldset>
+    </form>
+    </details>
+
+    <div>
+      <h2 class="sr-only">Results</h2>
+      <p class="cite" id="count" aria-live="polite"></p>
+      <ul class="results" id="results">
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-6">Article 6 — Classification rules for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_6">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-16">Article 16 — Obligations of providers of high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_16">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-26">Article 26 — Obligations of deployers of high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_26">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-27">Article 27 — Fundamental rights impact assessment for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_27">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#anx_III">Annex III — High-risk AI systems referred to in Article 6(2)</a></h3><p class="cite">AI Act · Annex · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#anx_III">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="date" data-force="binding"><h3><a href="ai-act.html#when">2 Dec 2027 — Chapter III Sections 1 to 3 for AI systems high-risk under Article 6(2) and Annex III</a></h3><p class="cite">AI Act · Date · Art. 113(c)(i) · set by Reg. (EU) 2026/1744 · not yet</p></li>
+        <li data-act="ai-act" data-kind="date" data-force="binding"><h3><a href="ai-act.html#when">2 Aug 2028 — the same, for AI systems high-risk under Article 6(1) and Annex I</a></h3><p class="cite">AI Act · Date · Art. 113(c)(ii) · set by Reg. (EU) 2026/1744 · not yet</p></li>
+        <li data-act="ai-act" data-kind="article" data-force="binding"><h3><a href="ai-act.html#art-72">Article 72 — Post-market monitoring by providers and post-market monitoring plan for high-risk AI systems</a></h3><p class="cite">AI Act · Article · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_72">EUR-Lex</a> · read 14 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="beside" data-force="non-binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026XC06005">Guidelines on the transparency obligations under Article 50</a></h3><p class="cite">AI Act · Guidelines · non-binding · Commission communication, 12 Nov 2026</p></li>
+        <li data-act="ai-act" data-kind="beside" data-force="binding"><h3><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R2487">Implementing Regulation (EU) 2026/2487 — AI regulatory sandboxes</a></h3><p class="cite">AI Act · Implementing act · 10 Nov 2026</p></li>
+      </ul>
+      <p class="empty" id="empty">Nothing in the map matches. The map covers the AI Act so far; other acts are added one at a time.</p>
+      <p class="cite">Mockup: filters a fixed list of checked records. The built site searches one Orama index, the same one agents query over MCP.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="notices">
+  <span><strong>Information, not legal advice.</strong> The official text and your counsel are what count.</span>
+  <span><strong>Independent project</strong>, not affiliated with the European Union. Records CC BY 4.0.</span>
+</footer>
+<script>
+  const q = document.getElementById("q"), items = [...document.querySelectorAll("#results li")];
+  const boxes = [...document.querySelectorAll(".facets input[name]")];
+  function run() {
+    const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    const on = (n) => boxes.filter((b) => b.name === n && b.checked).map((b) => b.value);
+    const acts = on("act"), kinds = on("kind"), forces = on("force");
+    let shown = 0;
+    for (const li of items) {
+      const text = li.textContent.toLowerCase();
+      const ok = terms.every((t) => text.includes(t)) && acts.includes(li.dataset.act)
+        && kinds.includes(li.dataset.kind) && forces.includes(li.dataset.force);
+      li.hidden = !ok; if (ok) shown++;
+    }
+    document.getElementById("count").textContent = shown + (shown === 1 ? " record" : " records") + " in the map";
+    document.getElementById("empty").style.display = shown ? "none" : "block";
+  }
+  if (matchMedia("(max-width: 1100px)").matches) document.querySelector("details.filters").open = false;
+  q.addEventListener("input", run); boxes.forEach((b) => b.addEventListener("change", run)); run();
+</script>
+</body>
+</html>

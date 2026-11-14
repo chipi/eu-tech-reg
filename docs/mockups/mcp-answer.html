@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A cited MCP answer — EU Tech Reg</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="masthead">
+  <a class="brand" href="index.html">
+    <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M3 6 l12 4 v20 l-12 -4z M31 6 l-12 4 v20 l12 -4z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+    <b>EU Tech Reg</b>
+    <span>Open reference map of EU technology regulation for startup founders</span>
+  </a>
+  <nav class="acts" aria-label="Acts">
+    <a href="ai-act.html">AI Act</a>
+    <span class="not-yet-label">Not yet:</span>
+    <a class="not-yet" href="#">GDPR</a>
+    <a class="not-yet" href="#">Data Act</a>
+    <a class="not-yet" href="#">Machinery Regulation</a>
+    <a class="not-yet" href="#">Cyber Resilience Act</a>
+    <a class="not-yet" href="#">Product Liability Directive</a>
+  </nav>
+  <a class="search-field" href="search.html"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Search EU Tech Reg</span></a>
+</header>
+
+<main class="page">
+  <p class="breadcrumb"><a href="index.html">Map</a> / For agents</p>
+  <h1>What your agent gets back</h1>
+  <p class="lede">A founder asks their own agent: <em>"We sell a high-risk AI system from December 2027 — what in the AI Act applies to us then?"</em> The agent calls EU Tech Reg over MCP at <span class="id">mcp.eutechreg.eu</span>. Every fact comes back with its proof and a link to this site.</p>
+  <p class="call">what_applies(act: "ai-act", role: "provider", system: "high-risk, Article 6(2) and Annex III", date: "2027-12-15")</p>
+
+  <div class="answer">
+    <section aria-labelledby="human-h">
+      <h2 id="human-h">As the agent can show it</h2>
+      <div class="fact">
+        <h3>Chapter III Sections 1 to 3 apply from 2 Dec 2027</h3>
+        <p>For AI systems high-risk under Article 6(2) and Annex III, except Article 6(5).</p>
+        <dl class="prov">
+          <dt>Source</dt><dd><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_113">AI Act, Art. 113(c)(i), consolidated 27 Jul 2026</a></dd>
+          <dt>Set by</dt><dd><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R1744">Regulation (EU) 2026/1744 — Digital Omnibus on AI</a></dd>
+          <dt>On the map</dt><dd><a href="ai-act.html#when">eutechreg.eu/acts/ai-act/dates/#high-risk-annex-iii</a></dd>
+          <dt>Read · state</dt><dd>14 Nov 2026 · checked</dd>
+        </dl>
+      </div>
+      <div class="fact">
+        <h3>Article 16 — Obligations of providers of high-risk AI systems</h3>
+        <p>The article to read for a provider; its duties are not yet broken down on the map.</p>
+        <dl class="prov">
+          <dt>Source</dt><dd><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_16">AI Act, Art. 16, consolidated 27 Jul 2026</a></dd>
+          <dt>On the map</dt><dd><a href="ai-act.html#art-16">eutechreg.eu/acts/ai-act/articles/16/</a></dd>
+          <dt>Read · state</dt><dd>14 Nov 2026 · checked (title only)</dd>
+        </dl>
+      </div>
+      <h3 class="next">Not covered by this answer</h3>
+      <ul>
+        <li>Whether your system is high-risk: the test is Article 6 and Annex III; the map does not decide it.</li>
+        <li>The obligations inside each article: not yet broken down.</li>
+        <li>National rules, and the content of harmonised standards.</li>
+      </ul>
+      <p class="attribution">Source: EU Tech Reg, eutechreg.eu (CC BY 4.0), built from EUR-Lex. Information, not legal advice. Independent, not affiliated with the European Union.</p>
+    </section>
+
+    <section aria-labelledby="json-h">
+      <h2 id="json-h">What the agent receives</h2>
+<pre><code>{
+  <span class="k">"facts"</span>: [
+    {
+      <span class="k">"record_id"</span>: <span class="s">"ai-act/date/high-risk-annex-iii"</span>,
+      <span class="k">"statement"</span>: <span class="s">"Chapter III Sections 1 to 3 (except Article 6(5)) apply from 2027-12-02 to AI systems high-risk under Article 6(2) and Annex III."</span>,
+      <span class="k">"applies_from"</span>: <span class="s">"2027-12-02"</span>,
+      <span class="k">"source"</span>: <span class="s">"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_113"</span>,
+      <span class="k">"set_by"</span>: { <span class="k">"celex"</span>: <span class="s">"32026R1744"</span>, <span class="k">"title"</span>: <span class="s">"Digital Omnibus on AI"</span> },
+      <span class="k">"map_url"</span>: <span class="s">"https://eutechreg.eu/acts/ai-act/dates/#high-risk-annex-iii"</span>,
+      <span class="k">"read"</span>: <span class="s">"2026-11-14"</span>,
+      <span class="k">"state"</span>: <span class="s">"checked"</span>
+    },
+    {
+      <span class="k">"record_id"</span>: <span class="s">"ai-act/article/16"</span>,
+      <span class="k">"statement"</span>: <span class="s">"Article 16 — Obligations of providers of high-risk AI systems"</span>,
+      <span class="k">"source"</span>: <span class="s">"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727#art_16"</span>,
+      <span class="k">"set_by"</span>: { <span class="k">"celex"</span>: <span class="s">"32024R1689"</span> },
+      <span class="k">"map_url"</span>: <span class="s">"https://eutechreg.eu/acts/ai-act/articles/16/"</span>,
+      <span class="k">"read"</span>: <span class="s">"2026-11-14"</span>,
+      <span class="k">"state"</span>: <span class="s">"checked"</span>,
+      <span class="k">"obligations"</span>: <span class="s">"not yet broken down"</span>
+    }
+  ],
+  <span class="k">"not_covered"</span>: [
+    <span class="s">"classification as high-risk: Article 6 and Annex III, decided by the reader"</span>,
+    <span class="s">"obligations inside articles: not yet broken down"</span>,
+    <span class="s">"national rules; content of harmonised standards"</span>
+  ],
+  <span class="k">"notices"</span>: [
+    <span class="s">"Information, not legal advice; the official text and your counsel are what count."</span>,
+    <span class="s">"Independent project, not affiliated with the European Union."</span>
+  ],
+  <span class="k">"attribution"</span>: <span class="s">"Source: EU Tech Reg, eutechreg.eu (CC BY 4.0), built from EUR-Lex."</span>,
+  <span class="k">"map_version"</span>: <span class="s">"mockup"</span>
+}</code></pre>
+    </section>
+  </div>
+</main>
+
+<footer class="notices">
+  <span><strong>Information, not legal advice.</strong> The official text and your counsel are what count.</span>
+  <span><strong>Independent project</strong>, not affiliated with the European Union. Records CC BY 4.0.</span>
+</footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "docs/mockups/assets/style.css"
+        ],
+        "createdAt": "2026-11-14T15:55:23.928Z",
+        "reason": "build thread decision, not the operator's: the one side-tab hit is the vertical spine of the dates timeline (.dates li::before), solid = applies, dashed = not yet, the contract's state-by-line-form raise; not a card accent"
+      },
+      {
+        "rule": "ai-color-palette",
+        "value": "*",
+        "files": [
+          "docs/mockups/index.html"
+        ],
+        "createdAt": "2026-11-14T15:55:23.934Z",
+        "reason": "operator approved the orienteering comp (2026-11-14) whose EU Tech Reg wordmark is this purple; the only hit on this page is the wordmark (#4f1f87)"
+      },
+      {
+        "rule": "ai-color-palette",
+        "value": "*",
+        "files": [
+          "docs/mockups/role.html"
+        ],
+        "createdAt": "2026-11-14T15:55:23.941Z",
+        "reason": "operator approved the orienteering comp (2026-11-14) whose EU Tech Reg wordmark is this purple; the only hit on this page is the wordmark (#4f1f87)"
+      },
+      {
+        "rule": "ai-color-palette",
+        "value": "*",
+        "files": [
+          "docs/mockups/search.html"
+        ],
+        "createdAt": "2026-11-14T15:55:23.947Z",
+        "reason": "operator approved the orienteering comp (2026-11-14) whose EU Tech Reg wordmark is this purple; the only hit on this page is the wordmark (#4f1f87)"
+      },
+      {
+        "rule": "ai-color-palette",
+        "value": "*",
+        "files": [
+          "docs/mockups/mcp-answer.html"
+        ],
+        "createdAt": "2026-11-14T15:55:23.953Z",
+        "reason": "operator approved the orienteering comp (2026-11-14) whose EU Tech Reg wordmark is this purple; the only hit on this page is the wordmark (#4f1f87)"
+      }
+    ]
+  }
+}

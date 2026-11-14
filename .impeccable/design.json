@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-14T16:12:05+00:00",
+  "title": "Design System: EU Tech Reg",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#222222",
+          "#3a3a3a",
+          "#555555",
+          "#7a7a7a",
+          "#9e9e9e",
+          "#c7c7c7",
+          "#eeeeee"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "canonical": "oklch(97.4% 0.009 299.2)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#222124",
+          "#3b3a3e",
+          "#565459",
+          "#7b797f",
+          "#9f9da2",
+          "#c8c6cb",
+          "#efeef1"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(22.7% 0.023 296.0)",
+        "tonalRamp": [
+          "#0b0a0f",
+          "#222028",
+          "#3b3943",
+          "#56535f",
+          "#7b7886",
+          "#9f9ca9",
+          "#c8c6d0",
+          "#efedf5"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink Two",
+        "canonical": "oklch(40.7% 0.034 296.3)",
+        "tonalRamp": [
+          "#0c0a11",
+          "#22202a",
+          "#3b3846",
+          "#565264",
+          "#7c778c",
+          "#a09bae",
+          "#c8c5d4",
+          "#efedf8"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(88.8% 0.028 301.7)",
+        "tonalRamp": [
+          "#0c0a10",
+          "#232028",
+          "#3c3844",
+          "#585261",
+          "#7d7788",
+          "#a19baa",
+          "#c9c5d1",
+          "#f0edf6"
+        ]
+      },
+      "course": {
+        "role": "primary",
+        "displayName": "Course Purple",
+        "canonical": "oklch(45.6% 0.194 299.8)",
+        "tonalRamp": [
+          "#12002a",
+          "#2b0a4f",
+          "#472077",
+          "#6536a2",
+          "#8d58d6",
+          "#ad86ef",
+          "#d3b5ff",
+          "#f7e2ff"
+        ]
+      },
+      "course-deep": {
+        "role": "primary",
+        "displayName": "Deep Course",
+        "canonical": "oklch(37.2% 0.161 299.3)",
+        "tonalRamp": [
+          "#110125",
+          "#291248",
+          "#44276e",
+          "#623e96",
+          "#8861c7",
+          "#aa8be2",
+          "#d0b9ff",
+          "#f5e4ff"
+        ]
+      },
+      "course-tint": {
+        "role": "primary",
+        "displayName": "Course Tint",
+        "canonical": "oklch(93.8% 0.028 306.0)",
+        "tonalRamp": [
+          "#0c0a10",
+          "#242028",
+          "#3d3843",
+          "#595260",
+          "#7e7687",
+          "#a29baa",
+          "#cac5d1",
+          "#f0ecf6"
+        ]
+      },
+      "contour": {
+        "role": "secondary",
+        "displayName": "Contour Brown",
+        "canonical": "oklch(64.2% 0.073 73.1)",
+        "tonalRamp": [
+          "#130900",
+          "#2e1e07",
+          "#4b3619",
+          "#6b502c",
+          "#94744a",
+          "#b59977",
+          "#dac3a8",
+          "#fdecd7"
+        ]
+      },
+      "stage-scope": {
+        "role": "tertiary",
+        "displayName": "Scope Olive",
+        "canonical": "oklch(92.4% 0.053 116.6)",
+        "tonalRamp": [
+          "#0a0c03",
+          "#212412",
+          "#393d26",
+          "#53593b",
+          "#787f5c",
+          "#9ca284",
+          "#c5cab3",
+          "#edf1df"
+        ]
+      },
+      "stage-banned": {
+        "role": "tertiary",
+        "displayName": "Banned Yellow",
+        "canonical": "oklch(90.9% 0.125 98.0)",
+        "tonalRamp": [
+          "#120a00",
+          "#2b2100",
+          "#473a00",
+          "#665500",
+          "#8d7a00",
+          "#af9f52",
+          "#d4c88e",
+          "#f8f0c4"
+        ]
+      },
+      "stage-highrisk": {
+        "role": "tertiary",
+        "displayName": "High-risk Light Brown",
+        "canonical": "oklch(89.3% 0.050 67.1)",
+        "tonalRamp": [
+          "#120903",
+          "#2b1f12",
+          "#483726",
+          "#66513b",
+          "#8e755c",
+          "#b09a84",
+          "#d6c4b2",
+          "#f9ecdf"
+        ]
+      },
+      "stage-requirements": {
+        "role": "tertiary",
+        "displayName": "Requirements Light Blue",
+        "canonical": "oklch(89.8% 0.038 234.5)",
+        "tonalRamp": [
+          "#050c11",
+          "#17232b",
+          "#2c3d47",
+          "#445965",
+          "#667e8d",
+          "#8da2af",
+          "#b9cad4",
+          "#e4f1f9"
+        ]
+      },
+      "stage-conformity": {
+        "role": "tertiary",
+        "displayName": "Conformity Pale Violet",
+        "canonical": "oklch(88.9% 0.049 305.4)",
+        "tonalRamp": [
+          "#0d0913",
+          "#251e2d",
+          "#3f364a",
+          "#5b5068",
+          "#817491",
+          "#a499b2",
+          "#ccc3d7",
+          "#f2ebfb"
+        ]
+      },
+      "stage-market": {
+        "role": "tertiary",
+        "displayName": "Market Mist",
+        "canonical": "oklch(94.2% 0.025 303.5)",
+        "tonalRamp": [
+          "#0c0a0f",
+          "#232028",
+          "#3c3843",
+          "#58535f",
+          "#7d7786",
+          "#a19ca9",
+          "#c9c5d0",
+          "#f0edf5"
+        ]
+      },
+      "code-text": {
+        "role": "neutral",
+        "displayName": "Code Text",
+        "canonical": "oklch(93.8% 0.019 299.1)",
+        "tonalRamp": [
+          "#0c0a0e",
+          "#222026",
+          "#3b3941",
+          "#56535d",
+          "#7c7884",
+          "#9f9ca7",
+          "#c8c6ce",
+          "#efedf4"
+        ]
+      },
+      "code-key": {
+        "role": "neutral",
+        "displayName": "Code Key",
+        "canonical": "oklch(78.5% 0.108 303.2)",
+        "tonalRamp": [
+          "#10051c",
+          "#28193a",
+          "#432f5c",
+          "#60477f",
+          "#876aad",
+          "#a992cb",
+          "#d0bdec",
+          "#f5e7ff"
+        ]
+      },
+      "code-string": {
+        "role": "neutral",
+        "displayName": "Code String",
+        "canonical": "oklch(91.4% 0.082 95.6)",
+        "tonalRamp": [
+          "#100b00",
+          "#292102",
+          "#443a11",
+          "#615522",
+          "#887a41",
+          "#ab9f70",
+          "#d1c8a3",
+          "#f6efd3"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page title only, one per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Uppercase section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Item headings in route lists and results."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "EU Tech Reg in the masthead only, deep purple."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text, tabular figures; 16px at 640px and below."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Opening paragraph, held to 68ch."
+      },
+      "cite": {
+        "displayName": "Cite",
+        "purpose": "Citation line under every fact, ink two."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase condensed labels: buttons, state words, table heads, legends."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "JSON an agent receives, platform monospace."
+      }
+    },
+    "shadows": [
+      {
+        "name": "route-box-float",
+        "value": "0 6px 18px rgba(79, 31, 135, 0.14)",
+        "purpose": "Only for a control panel laid over the process map."
+      },
+      {
+        "name": "searchbox-focus-halo",
+        "value": "0 0 0 4px var(--course-tint)",
+        "purpose": "Focus-within on the large search input."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing curve."
+      },
+      {
+        "name": "button-fill",
+        "value": "background 200ms var(--ease)",
+        "purpose": "Button background on hover."
+      },
+      {
+        "name": "course-settle",
+        "value": "settle 520ms var(--ease): translateY(8px) to none",
+        "purpose": "Replays the course on role change; only under prefers-reduced-motion: no-preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "640px"
+      },
+      {
+        "name": "single-column",
+        "value": "1100px"
+      },
+      {
+        "name": "nav-compact",
+        "value": "1101px-1250px"
+      },
+      {
+        "name": "tagline-wrap",
+        "value": "1400px"
+      },
+      {
+        "name": "wide",
+        "value": "1600px"
+      }
+    ],
+    "focus": {
+      "value": "outline: 3px solid var(--course); outline-offset: 3px; border-radius: 2px",
+      "purpose": "Global :focus-visible."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one main action in an action row, e.g. Read the act.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M2 4 l7 2 v11 l-7 -2z M18 4 l-7 2 v11 l7 -2z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/></svg>Read the act</a>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-btn{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:6px;font:600 1.05rem/1 var(--display);letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;border:1.5px solid var(--course);color:var(--course-deep);background:var(--ground);transition:background 200ms var(--ease);} .ds-btn svg{width:20px;height:20px;} .ds-btn-primary{background:var(--course);color:#fff;} .ds-btn-primary:hover{background:var(--course-deep);color:#fff;} .ds-btn:focus-visible{outline:3px solid var(--course);outline-offset:3px;}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined action beside the primary, e.g. Your route, When it applies.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">Your route</a>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-btn-secondary{display:inline-flex;align-items:center;padding:12px 20px;border-radius:6px;font:600 1.05rem/1 var(--display);letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;border:1.5px solid var(--course);color:var(--course-deep);background:var(--ground);transition:background 200ms var(--ease);} .ds-btn-secondary:hover{background:var(--course-tint);} .ds-btn-secondary:focus-visible{outline:3px solid var(--course);outline-offset:3px;}"
+    },
+    {
+      "name": "Role Segments",
+      "kind": "chip",
+      "refersTo": "role-segment",
+      "description": "Choose the reader's role; the checked role fills purple and redraws the course.",
+      "html": "<div class=\"ds-roles\" role=\"radiogroup\" aria-label=\"Role\"><input type=\"radio\" name=\"ds-role\" id=\"ds-p\" checked><label for=\"ds-p\">Provider</label><input type=\"radio\" name=\"ds-role\" id=\"ds-d\"><label for=\"ds-d\">Deployer</label></div>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-roles{display:flex;gap:6px;max-width:300px;} .ds-roles input{position:absolute;opacity:0;} .ds-roles label{flex:1;text-align:center;cursor:pointer;padding:8px 10px;border:1.5px solid var(--course);border-radius:5px;font:600 1.02rem/1 var(--display);color:var(--course-deep);} .ds-roles input:checked + label{background:var(--course);color:#fff;} .ds-roles input:focus-visible + label{outline:3px solid var(--course);outline-offset:2px;}"
+    },
+    {
+      "name": "Searchbox",
+      "kind": "input",
+      "refersTo": "searchbox",
+      "description": "The large search input on the search page.",
+      "html": "<label class=\"ds-searchbox\"><svg viewBox=\"0 0 20 20\" width=\"18\" height=\"18\" aria-hidden=\"true\"><circle cx=\"8.5\" cy=\"8.5\" r=\"6\" fill=\"none\" stroke=\"#6a2db0\" stroke-width=\"2\"/><path d=\"M13 13 l5 5\" stroke=\"#6a2db0\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg><input type=\"search\" placeholder=\"high-risk\"></label>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-searchbox{display:flex;gap:10px;align-items:center;border:2px solid var(--course);border-radius:8px;padding:12px 16px;} .ds-searchbox input{border:0;font:400 1.2rem/1.2 var(--text);color:var(--ink);width:100%;background:transparent;} .ds-searchbox input:focus{outline:none;} .ds-searchbox:focus-within{box-shadow:0 0 0 4px var(--course-tint);}"
+    },
+    {
+      "name": "Acts Navigation",
+      "kind": "nav",
+      "description": "Masthead acts: current act purple with a bar; acts not on the map yet after a Not yet label, dashed underline.",
+      "html": "<nav class=\"ds-acts\" aria-label=\"Acts\"><a href=\"#\" aria-current=\"page\">AI Act</a><span class=\"ds-nylabel\">Not yet:</span><a class=\"ds-ny\" href=\"#\">GDPR</a><a class=\"ds-ny\" href=\"#\">Data Act</a></nav>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-acts{display:flex;gap:20px;align-items:baseline;font:500 1.02rem/1 var(--display);} .ds-acts a{color:var(--ink);text-decoration:none;padding:10px 2px;border-bottom:3px solid transparent;} .ds-acts a[aria-current=\"page\"]{color:var(--course);border-bottom-color:var(--course);} .ds-nylabel{font:600 0.82rem/1 var(--display);letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-2);} .ds-acts a.ds-ny{color:var(--ink-2);text-decoration:underline dashed 1.5px;text-underline-offset:0.35em;} .ds-acts a:focus-visible{outline:3px solid var(--course);outline-offset:3px;}"
+    },
+    {
+      "name": "Fact Card",
+      "kind": "card",
+      "refersTo": "fact-card",
+      "description": "One cited fact with its provenance grid.",
+      "html": "<div class=\"ds-fact\"><p>Chapter III Sections 1 to 3 apply from 2 Dec 2027.</p><dl class=\"ds-prov\"><dt>Source</dt><dd>Art. 113(c)(i)</dd><dt>Set by</dt><dd>Reg. (EU) 2026/1744</dd><dt>Read</dt><dd>14 Nov 2026</dd></dl></div>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-fact{border:1px solid var(--rule);border-radius:8px;padding:14px 16px;font:400 17px/1.6 var(--text);color:var(--ink);font-variant-numeric:tabular-nums;} .ds-fact p{margin:0;} .ds-prov{display:grid;grid-template-columns:max-content 1fr;gap:2px 12px;font-size:0.85rem;color:var(--ink-2);margin:8px 0 0;} .ds-prov dt{font:600 0.85rem/1.4 var(--display);letter-spacing:0.04em;color:var(--ink);} .ds-prov dd{margin:0;}"
+    },
+    {
+      "name": "Dates Timeline",
+      "kind": "custom",
+      "description": "Solid spine and filled dot = applies; dashed spine and dashed dot = not yet; the state word always beside.",
+      "html": "<ul class=\"ds-dates\"><li><span class=\"ds-dot\"></span><span class=\"ds-when\">2 Aug 2026<span class=\"ds-state\">applies</span></span><span class=\"ds-what\">Everything not listed with another date.</span></li><li class=\"ds-ny\"><span class=\"ds-dot\"></span><span class=\"ds-when\">2 Dec 2027<span class=\"ds-state\">not yet</span></span><span class=\"ds-what\">Chapter III Sections 1 to 3, Annex III systems.</span></li><li class=\"ds-ny\"><span class=\"ds-dot\"></span><span class=\"ds-when\">2 Aug 2028<span class=\"ds-state\">not yet</span></span><span class=\"ds-what\">The same, Annex I systems.</span></li></ul>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-dates{list-style:none;margin:0;padding:0;font:400 0.95rem/1.45 var(--text);color:var(--ink);font-variant-numeric:tabular-nums;} .ds-dates li{display:grid;grid-template-columns:22px 104px 1fr;gap:10px;padding:0 0 14px;position:relative;} .ds-dates li::before{content:\"\";position:absolute;left:10px;top:14px;bottom:0;border-left:3px solid var(--course);} .ds-dates li.ds-ny::before{border-left-style:dashed;border-left-width:2px;} .ds-dates li:last-child::before{display:none;} .ds-dot{width:22px;height:22px;border-radius:50%;background:var(--course);margin-top:2px;box-sizing:border-box;} .ds-ny .ds-dot{background:#fff;border:2px dashed var(--course);} .ds-when{font:600 1.05rem/1.25 var(--display);} .ds-state{display:block;font:500 0.8rem/1.3 var(--display);letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-2);}"
+    },
+    {
+      "name": "State Tag",
+      "kind": "chip",
+      "refersTo": "state-tag",
+      "description": "Labels content nobody has checked yet.",
+      "html": "<span class=\"ds-tag\">Explanation draft · not yet reviewed</span>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-tag{display:inline-block;font:600 0.78rem/1 var(--display);letter-spacing:0.06em;text-transform:uppercase;color:var(--ink-2);border:1px dashed var(--ink-2);padding:4px 6px;border-radius:3px;}"
+    },
+    {
+      "name": "Process Map Course",
+      "kind": "custom",
+      "description": "Terrain bands with dashed contours; the reader's course from start triangle through numbered controls to the finish flag.",
+      "html": "<svg class=\"ds-map\" viewBox=\"0 0 360 180\" role=\"img\" aria-label=\"Course over stages\"><rect x=\"0\" y=\"0\" width=\"120\" height=\"180\" fill=\"#e3ebc3\"/><rect x=\"120\" y=\"0\" width=\"120\" height=\"180\" fill=\"#f7e27c\"/><rect x=\"240\" y=\"0\" width=\"120\" height=\"180\" fill=\"#f3d6b9\"/><g stroke=\"#a8865a\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"><line x1=\"120\" y1=\"0\" x2=\"120\" y2=\"180\"/><line x1=\"240\" y1=\"0\" x2=\"240\" y2=\"180\"/></g><polyline class=\"ds-leg\" points=\"40,130 160,70 290,110 320,150\"/><polygon points=\"40,114 54,138 26,138\" fill=\"#fff\" stroke=\"#6a2db0\" stroke-width=\"3.5\"/><a href=\"#\" class=\"ds-control\"><circle cx=\"160\" cy=\"70\" r=\"12\"/><text x=\"176\" y=\"62\">1</text></a><a href=\"#\" class=\"ds-control\"><circle cx=\"290\" cy=\"110\" r=\"12\"/><text x=\"306\" y=\"102\">2</text></a><path d=\"M320 150 v-32 l22 7 -22 9\" fill=\"#6a2db0\" stroke=\"#6a2db0\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>",
+      "css": ":host{--ground:#ffffff;--ink:#1d1a26;--ink-2:#4b465a;--rule:#ddd6ea;--course:#6a2db0;--course-deep:#4f1f87;--course-tint:#efe6fa;--contour:#a8865a;--display:\"Barlow Condensed\",\"Barlow\",sans-serif;--text:\"Barlow\",sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-map{display:block;width:100%;max-width:420px;} .ds-leg{stroke:var(--course);stroke-width:3;fill:none;stroke-linecap:round;} .ds-control circle{fill:#fff;stroke:var(--course);stroke-width:3.5;} .ds-control text{font:700 17px/1 var(--display);fill:var(--course-deep);} .ds-control:hover circle,.ds-control:focus-visible circle{fill:var(--course-tint);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Course Over Fixed Terrain",
+    "overview": "The law is drawn as orienteering terrain: the same flat, slanted bands of tint for every reader, one band per stage of the act, separated by dashed contour lines. Over it runs one purple course, the reader's route for their role, from a start triangle through numbered controls (each an article with its citation) to a finish flag. Everything that belongs to the reader wears the purple; everything that belongs to the law is ink on white or a flat terrain tint.\n\nThe page is a white, dense, calm reading surface. A condensed sans carries display text and labels with an engineered, map-legend voice; a quiet humanist sans carries the reading text with tabular figures so dates and identifiers line up. Depth is almost absent: hairline rules divide regions, one floating box sits over the map, and state is shown by the form of a line (solid or dashed) with a word beside it. Nothing is decorated for its own sake; the citation line under each fact is part of the design, not a footnote to it.\n\nIt rejects the legal database's sidebar tree over a wall of text, and the look of an institutional EU portal.",
+    "keyCharacteristics": [
+      "White ground, ink text, hairline violet-grey rules.",
+      "Six flat stage tints in slanted bands with dashed contour boundaries: the terrain.",
+      "One purple, the course: route, controls, active role, links, primary action, wordmark.",
+      "Barlow Condensed for display and labels, Barlow for reading, tabular figures throughout.",
+      "State by line form plus a label: solid means applies or in force, dashed means not yet.",
+      "A citation under every fact; unchecked content visibly labelled; the two notices in every footer."
+    ],
+    "rules": [
+      {
+        "name": "The Reader's Purple Rule",
+        "body": "Purple belongs to the reader: the course, its controls, the active role, links, the primary action, focus and selection, and the wordmark. Headings, labels, table headers and the law's own content are ink. Before painting anything purple, ask whose it is; if it is the law's, it is ink or a terrain tint.",
+        "section": "colors"
+      },
+      {
+        "name": "The Flat Terrain Rule",
+        "body": "Stage tints are flat fills with dashed contour boundaries. No gradients, no shadows, no text colour drawn from a tint.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "`font-variant-numeric: tabular-nums` is set on the body; dates, article numbers and CELEX identifiers align in every table and timeline.",
+        "section": "typography"
+      },
+      {
+        "name": "The Two Faces Rule",
+        "body": "Condensed for what you scan (titles, headings, labels, numbers on the map), regular Barlow for what you read. Never set a paragraph in the condensed face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only Float Rule",
+        "body": "Shadow means \"this sits on top of the map\". A card on the white page gets a hairline border, never a shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Line Form Rule",
+        "body": "State is carried by the form of a line plus a word, never by colour alone. Solid is applies or in force; dashed is not yet. Every dashed state mark sits next to its label (\"not yet\", \"Not yet:\", \"not yet reviewed\").",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do keep purple for the reader: course, controls, active role, links, primary action, focus, selection, wordmark. Headings, labels and table heads are ink.",
+      "Do show state with line form plus a word: solid for applies or in force, dashed for not yet.",
+      "Do put a cite line under every fact, and label unchecked content with the dashed state tag or a plain \"not yet\" line.",
+      "Do end every page with both notices: information, not legal advice; independent, not affiliated with the European Union.",
+      "Do draw the law's stages as flat terrain tints with dashed contour boundaries, and the role as a purple course of start triangle, numbered controls and finish flag.",
+      "Do set dates and identifiers in tabular figures, and display text and labels in Barlow Condensed.",
+      "Do divide regions with 1px hairlines; reserve shadow for something floating over the map."
+    ],
+    "donts": [
+      "Don't colour headings, section labels or the law's content purple.",
+      "Don't signal state by colour alone; a dashed line without its word is not enough.",
+      "Don't show a fact without its citation, or show unchecked content without its label.",
+      "Don't shade, gradient or texture the terrain tints, or use them as text colours.",
+      "Don't set paragraphs in the condensed face.",
+      "Don't fall back to a sidebar tree over a wall of legal text."
+    ]
+  }
+}
