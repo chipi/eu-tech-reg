@@ -76,6 +76,24 @@ nav:
     - 02 — Project concept: concept/02-project-concept.md
     - 03 — Data catalog: concept/03-data-catalog.md
     - 04 — Architecture: concept/04-architecture.md
+    - 05 — Design system: concept/05-design-system.md
+  - Experience (UXS):
+    - Overview: uxs/index.md
+    - Information architecture: uxs/IA.md
+    - UXS-000 — Shared tokens: uxs/UXS-000-shared-tokens.md
+    - UXS-001 — The act page: uxs/UXS-001-act-page.md
+    - UXS-002 — Your role across every act: uxs/UXS-002-role-view.md
+    - UXS-003 — Search: uxs/UXS-003-search.md
+    - UXS-004 — What your agent gets back: uxs/UXS-004-agent-answer.md
+  - User guide:
+    - Overview: guide/index.md
+    - 00 — Introduction: guide/GUIDE-00-introduction.md
+    - 01 — What EU Tech Reg is: guide/GUIDE-01-what-eu-tech-reg-is.md
+    - 02 — Reading an act: guide/GUIDE-02-reading-an-act.md
+    - 03 — Your role across every act: guide/GUIDE-03-your-role-across-acts.md
+    - 04 — Searching: guide/GUIDE-04-searching.md
+    - 05 — Connecting your agent: guide/GUIDE-05-connecting-your-agent.md
+    - 06 — Citations, states and gaps: guide/GUIDE-06-citations-states-and-gaps.md
   - Requirements (PRD):
     - Overview: prd/index.md
   - Proposals (RFC):

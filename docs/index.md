@@ -11,6 +11,9 @@ consulting it (MCP from the start).
 ## Where to start
 
 - **Why this exists:** [the vision](concept/01-vision.md) (draft).
+- **What it looks like:** the [mockup](mockups/index.html), the [design system](concept/05-design-system.md)
+  and the [visual contracts (UXS)](uxs/index.md).
+- **How to use it:** the [user guide](guide/index.md).
 - **The first write-up:** [the idea](wip/IDEA.md).
 - **Proposals and decisions:** [RFCs](rfc/index.md), [ADRs](adr/index.md),
   [PRDs](prd/index.md) — none yet.

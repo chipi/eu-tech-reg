@@ -13,6 +13,7 @@ used throughout. Read first if any term below is new.*
 | [02 — Project concept](02-project-concept.md) | What the map holds, the ways in, how a fact stays true |
 | [03 — Data catalog](03-data-catalog.md) | Where every fact comes from |
 | [04 — Architecture](04-architecture.md) | How it is built and run |
+| [05 — Design system](05-design-system.md) | What it looks like and why |
 
 ## What this project adds over EUR-Lex and Cellar
 

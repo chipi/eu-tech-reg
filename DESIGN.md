@@ -208,7 +208,7 @@ Ink text sits directly on every tint (ink on Banned Yellow 13.1:1).
 ### Named Rules
 **The Reader's Purple Rule.** Purple belongs to the reader: the course, its controls, the active role, links, the primary action, focus and selection, and the wordmark. Headings, labels, table headers and the law's own content are ink. Before painting anything purple, ask whose it is; if it is the law's, it is ink or a terrain tint.
 
-The build carries four purple marks outside that list: the 2px rule under the status line, the 2px rule above the footer notices, the "Your route" label in the route box, and the dashed purple border of the MCP attribution box. They are recorded as divergence, not precedent; new surfaces follow the rule.
+The build carries three purple marks outside that list: the 2px rule under the status line, the 2px rule above the footer notices, and the "Your route" label in the route box. They are recorded as divergence, not precedent; new surfaces follow the rule.
 
 **The Flat Terrain Rule.** Stage tints are flat fills with dashed contour boundaries. No gradients, no shadows, no text colour drawn from a tint.
 
@@ -321,7 +321,7 @@ Three columns per row: a 22px dot, the date in condensed 600 with its state word
 Every page ends with two ink-two notices (currently under a 2px purple rule, see The Reader's Purple Rule) with their lead words in ink 600: "Information, not legal advice." and "Independent project, not affiliated with the European Union." Records licence sits with the second.
 
 ### Agent Answer (MCP page)
-The tool call is set in condensed 500 deep purple on a course-tint panel; the JSON response sits in an ink code block (code text, lavender keys, pale yellow strings); a bordered box carries the copyable attribution line (built with a dashed purple border, which collides with The Line Form Rule; recorded as divergence).
+The tool call is set in condensed 500 deep purple on a course-tint panel; the JSON response sits in an ink code block (code text, lavender keys, pale yellow strings); a hairline box on the panel ground carries the copyable attribution line.
 
 ## Do's and Don'ts
 
