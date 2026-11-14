@@ -26,11 +26,13 @@ its citation, or is not given. Vision: `docs/concept/01-vision.md`.
 
 | Layer | Choice | Reason |
 | --- | --- | --- |
-| Records | TODO — YAML or JSON per act, schema checked in CI | Open question in `docs/wip/IDEA.md` |
-| MCP server | TODO | Not decided |
+| Records | Files in git, schema checked in CI (format in 04) | Operator, 2026-11-14 |
+| MCP server | TypeScript, streamable HTTP, public read-only (orrery as model) | Operator, 2026-11-14 |
+| Search | Orama, one index for the site and the MCP server | Operator, 2026-11-14 |
 | CI runner | GitHub Actions | matches `chipi` standard |
-| Docs site | MkDocs Material → GH Pages | matches `chipi` standard |
-| Licence | TODO — code and records | Open question in `docs/wip/IDEA.md` |
+| Site generator | Zensical (successor to MkDocs Material) | Operator, 2026-11-14 |
+| Hosting | Prod VPS behind the shared Caddy edge, Docker, own domain (later); GitHub Pages until then | Operator, 2026-11-14 (`docs/wip/ARCHITECTURE-INPUTS.md`) |
+| Licence | Records and explanations CC BY 4.0; code MIT | Operator, 2026-11-14 (`docs/concept/03-data-catalog.md`) |
 
 ---
 

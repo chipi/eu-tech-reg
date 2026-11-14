@@ -231,16 +231,19 @@ gaps visible while the work is under way.
 
 ## 9. Phase 1
 
-Phase 1 builds the whole path for **the AI Act**, first of the vision's first acts, end to end:
-record format, the act done (section 8), its page, the MCP server answering for it, the pull for
-its metadata. Then the GDPR, Data Act, Machinery Regulation, Cyber Resilience Act and Product
+**Mockup first, then build** (operator, 2026-11-14). Before any building, a mockup of the site
+and the MCP answers nails down the approach: what an act page, a view and a cited answer look
+like, with real AI Act content.
+
+Then phase 1 builds the whole path for **the AI Act**, first of the vision's first acts, end to
+end: record format, the act done (section 8), its page, the MCP server answering for it, the pull
+for its metadata. Then the GDPR, Data Act, Machinery Regulation, Cyber Resilience Act and Product
 Liability Directive, one at a time; then the cross-act views.
 
 The AI Act is the largest of the six — 113 articles, 13 annexes and 180 recitals as published
 (counted in the Cellar text, 2026-11-14; the consolidated text of 2026-07-27 has 119 article
 anchors after the Digital Omnibus on AI) — so phase 1 is the longest single act; the two passes
-(section 8) keep
-it visible while it is under way.
+(section 8) keep it visible while it is under way.
 
 ## 10. Honest limits
 

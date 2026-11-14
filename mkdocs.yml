@@ -71,6 +71,7 @@ nav:
   - Home: index.md
   - Concept:
     - Overview: concept/index.md
+    - 00 — Introduction and glossary: concept/00-introduction.md
     - 01 — Vision: concept/01-vision.md
     - 02 — Project concept: concept/02-project-concept.md
     - 03 — Data catalog: concept/03-data-catalog.md
@@ -84,6 +85,7 @@ nav:
     - Overview: wip/index.md
     - The idea: wip/IDEA.md
     - Candidate scope: wip/SCOPE.md
+    - Inputs for 04: wip/ARCHITECTURE-INPUTS.md
   - History:
     - Overview: history/index.md
 

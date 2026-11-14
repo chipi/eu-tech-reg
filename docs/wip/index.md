@@ -16,3 +16,5 @@ Notes in progress: plans, ideas, analyses. Promotion targets:
   [vision](../concept/01-vision.md).
 - [Candidate scope](SCOPE.md) — every act an AI or robotics startup may meet, unchecked, for the
   operator to cut.
+- [Inputs for 04](ARCHITECTURE-INPUTS.md) — hosting, MCP and pull lessons from the operator's other
+  projects and their sessions.

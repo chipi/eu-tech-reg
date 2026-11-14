@@ -1,10 +1,12 @@
 # 03 — Data catalog
 
-> **Status** · Draft v0.1 · 2026-11-14 — every source below was queried on 2026-11-14 unless a
-> line says *not checked*. The open questions at the bottom are for the operator.
+> **Status** · Draft v0.2 · 2026-11-14 — every source below was queried on 2026-11-14 unless a
+> line says *not checked*. Decisions at the bottom agreed by the operator.
 
 *Where every fact in the map comes from, what each source gives, and what it does not. Read
-this before writing a record or the pull.*
+this before writing a record or the pull. Terms (Cellar, EUR-Lex, CELEX, consolidated version
+…) are in the [glossary](00-introduction.md#glossary); what the map adds over these sources is
+in [00](00-introduction.md#what-this-project-adds-over-eur-lex-and-cellar).*
 
 The [project concept](02-project-concept.md) says what the map holds. This document says where
 each field is read from. The test case throughout is the AI Act, Regulation (EU) 2024/1689
@@ -172,13 +174,15 @@ What this means for the map:
 | Guidance outside the Official Journal | Where AI Act guidelines and the code of practice live | List the AI Office's published documents |
 | Harmonised standards' references | Standard pointers | Find the Official Journal publications for the Machinery Regulation |
 
-## 6. Open questions
+## 6. Decisions
 
-1. **Licence for the map's own work** — the records and explanations (CC BY 4.0, as the EU uses,
-   would match) and the code (MIT, as in the operator's other projects)?
-2. **Which text to read by default.** The latest consolidated version shows what applies now,
-   but it says of itself: "This text is meant purely as a documentation tool and has no legal
-   effect. The authentic versions of the relevant acts … are those published in the Official
-   Journal" (read 2026-11-14). Proposed: read the consolidated text, and cite each date and
-   obligation to the consolidated version *and* to the published act that set it — the
-   original act, or the amending act named by the `▼M` marker.
+Agreed by the operator on 2026-11-14:
+
+1. **Licence.** The map's own work — records and explanations — under **CC BY 4.0**, as the EU
+   licenses its own content; the code under **MIT**, as in the operator's other projects.
+2. **Which text is read.** The latest consolidated version shows what applies now, but it says of
+   itself: "This text is meant purely as a documentation tool and has no legal effect. The
+   authentic versions of the relevant acts … are those published in the Official Journal" (read
+   2026-11-14). So the map **reads the consolidated text, and cites each date and obligation
+   twice**: to the consolidated version, and to the published act that set it — the original
+   act, or the amending act named by the `▼M` marker.
