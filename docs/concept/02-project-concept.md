@@ -46,7 +46,7 @@ Two kinds of content, never mixed:
 | **Article** | Number, title, the act it sits in, its EUR-Lex anchor; annexes are articles too | Article 9, risk management system |
 | **Obligation** | The duty in a short paraphrase, the role it binds, the product or system it applies to, conditions, the date it applies from, the article(s) | "Providers of high-risk AI systems maintain a risk management system" |
 | **Date** | A date when a part of an act starts to apply, with the parts it covers | "the rules on general-purpose AI models apply from …" |
-| **Relation** | Act to act: amends, is amended by, implements, repeals, refers to, is proposed to change | Digital Omnibus → proposes to change → AI Act |
+| **Relation** | Act to act: amends, is amended by, implements, repeals, refers to, is proposed to change | Digital Omnibus on AI, Regulation (EU) 2026/1744 → amends → AI Act |
 | **Guidance** | A delegated or implementing act, a guideline, a code of practice: what it concerns, its binding force (binding / non-binding / voluntary), the act and articles it serves | The general-purpose AI code of practice — voluntary — AI Act |
 | **Standard pointer** | Number, title, the act it serves, when it was cited in the Official Journal, where to buy it; nothing about its content | EN ISO 10218 — Machinery Regulation |
 
@@ -236,8 +236,10 @@ record format, the act done (section 8), its page, the MCP server answering for 
 its metadata. Then the GDPR, Data Act, Machinery Regulation, Cyber Resilience Act and Product
 Liability Directive, one at a time; then the cross-act views.
 
-The AI Act is the largest of the six (over a hundred articles and more than a dozen annexes —
-from memory, unchecked), so phase 1 is the longest single act; the two passes (section 8) keep
+The AI Act is the largest of the six — 113 articles, 13 annexes and 180 recitals as published
+(counted in the Cellar text, 2026-11-14; the consolidated text of 2026-07-27 has 119 article
+anchors after the Digital Omnibus on AI) — so phase 1 is the longest single act; the two passes
+(section 8) keep
 it visible while it is under way.
 
 ## 10. Honest limits

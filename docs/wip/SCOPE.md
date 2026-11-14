@@ -16,7 +16,7 @@ Columns: **Why** — when a startup meets it. **Profile** — which startup prof
 | Act | Why | Profile |
 | --- | --- | --- |
 | AI Act — Regulation (EU) 2024/1689 | Providers and deployers of AI systems; high-risk systems; general-purpose AI models | all |
-| Digital Omnibus on AI — proposal (2025) | Moves AI Act dates and simplifies parts; status to track | all |
+| Digital Omnibus on AI — Regulation (EU) 2026/1744 | Adopted 8 July 2026 (checked in Cellar, 2026-11-14); amends the AI Act, Regulation (EU) 2018/1139 and the Machinery Regulation | all |
 | AI Liability Directive — proposal (2022) | Believed withdrawn in 2025; record only its status | all |
 | GDPR — Regulation (EU) 2016/679 | Any personal data: training data, users, camera images | all |
 | ePrivacy Directive — 2002/58/EC | Cookies, device access, electronic communications | AI |

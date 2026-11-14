@@ -86,8 +86,9 @@ date. It gets its position as a list of cited obligations it can take to counsel
 blank page.
 
 A curious reader opens the site, follows the timeline to see what starts in 2027, and the relation
-map to see what the Digital Omnibus would change in the AI Act. When a date moves on EUR-Lex, a
-change waits for review with the old value, the new one and the link — nobody has to notice first.
+map to see what the Digital Omnibus on AI (Regulation (EU) 2026/1744) changed in the AI Act. When
+a date moves on EUR-Lex, a change waits for review with the old value, the new one and the link —
+nobody has to notice first.
 
 ## Why this earns existence
 

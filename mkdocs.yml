@@ -73,6 +73,7 @@ nav:
     - Overview: concept/index.md
     - 01 — Vision: concept/01-vision.md
     - 02 — Project concept: concept/02-project-concept.md
+    - 03 — Data catalog: concept/03-data-catalog.md
   - Requirements (PRD):
     - Overview: prd/index.md
   - Proposals (RFC):
