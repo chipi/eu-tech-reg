@@ -22,7 +22,11 @@ Then, after the inputs below:
   used by the site in the browser and by the MCP server, so people and agents get the same
   results.
 - **Site generator: Zensical**, the maintained successor to MkDocs Material, now.
-- **Domain**: later; the operator will look at what is available.
+- **Domains**: **eutechreg.eu** (main) and **eu-tech-reg.eu** (redirect to it), bought by the
+  operator on 2026-11-14. EURid whois still answered `AVAILABLE` for both the same day — re-check
+  before DNS. DNS and vhosts are set up when the first version is ready to deploy, not before.
+- **Proposed, not agreed**: every page also says "independent project, not affiliated with the
+  European Union", next to the not-legal-advice notice — a `.eu` name can read as official.
 - **Shared family footer**: yes.
 
 ## Hosting (from the websites session, chipi/humancopilot.eu, 2026-11-14)

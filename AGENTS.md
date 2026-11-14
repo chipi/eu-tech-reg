@@ -17,7 +17,7 @@ An open, structured map of EU technology regulation for AI and robotics startups
 investors, companies coming to the EU from outside, curious readers and their agents.
 Article-level records (act → articles → obligations: who, what product, from when) that point to
 EUR-Lex instead of copying the text, plus a plain-words explanation per act. Reached through a
-MkDocs site, generated views (by role, date, relation) and an MCP server. Every answer carries
+Zensical site, generated views (by role, date, relation) and an MCP server. Every answer carries
 its citation, or is not given. Vision: `docs/concept/01-vision.md`.
 
 ---
@@ -31,7 +31,7 @@ its citation, or is not given. Vision: `docs/concept/01-vision.md`.
 | Search | Orama, one index for the site and the MCP server | Operator, 2026-11-14 |
 | CI runner | GitHub Actions | matches `chipi` standard |
 | Site generator | Zensical (successor to MkDocs Material) | Operator, 2026-11-14 |
-| Hosting | Prod VPS behind the shared Caddy edge, Docker, own domain (later); GitHub Pages until then | Operator, 2026-11-14 (`docs/wip/ARCHITECTURE-INPUTS.md`) |
+| Hosting | Prod VPS behind the shared Caddy edge, Docker; eutechreg.eu (+ eu-tech-reg.eu redirect) at first deploy; GitHub Pages until then | Operator, 2026-11-14 (`docs/wip/ARCHITECTURE-INPUTS.md`) |
 | Licence | Records and explanations CC BY 4.0; code MIT | Operator, 2026-11-14 (`docs/concept/03-data-catalog.md`) |
 
 ---

@@ -11,7 +11,7 @@ official text is what counts.
 
 ## Docs
 
-The docs site lives in [`docs/`](docs/index.md) (MkDocs Material, same conventions as the
+The docs site lives in [`docs/`](docs/index.md) (Zensical, same conventions as the
 operator's other projects): `make docs-serve` to read it, `make ci` before pushing.
 
 - [Vision](docs/concept/01-vision.md) (draft) — start here.

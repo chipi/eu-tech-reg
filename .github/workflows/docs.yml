@@ -7,7 +7,7 @@
 #   - pull_request  → build only (strict), so PR CI catches broken refs
 #   - workflow_dispatch → manual rebuild
 #
-# Strict build (mkdocs build --strict) fails on unresolved cross-references.
+# Strict build (zensical build --strict) fails on broken links and anchors.
 
 name: docs
 
@@ -66,7 +66,7 @@ jobs:
         run: make docs-lint
 
       - name: Build site (strict)
-        run: mkdocs build --strict --clean
+        run: zensical build --strict --clean
 
       - name: Configure Pages
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'

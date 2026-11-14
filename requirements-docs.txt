@@ -1,3 +1,4 @@
-# Docs build deps — MkDocs Material brings in mkdocs core + pymdown-extensions.
+# Docs build deps — Zensical, the successor to MkDocs Material (operator, 2026-11-14). It reads
+# mkdocs.yml as is. Pinned exactly: it is pre-1.0 (0.1.1, released 2026-11-10).
 # Keep this list minimal; new deps need approval per global AGENTS.md #12.
-mkdocs-material>=9.5,<10
+zensical==0.1.1

@@ -4,7 +4,7 @@
 #   - docs-lint / docs-build → atomic
 #   - ci-fast                → what every push must pass (fast feedback)
 #   - ci                     → what every merge must pass (full gate)
-#   - docs-*                 → MkDocs site (preview + strict build) and markdownlint
+#   - docs-*                 → Zensical site (preview + strict build) and markdownlint
 #
 # Docs only for now; code targets (record schema check, MCP server tests) join ci-fast and ci
 # when that code exists.
@@ -22,7 +22,7 @@ PYTHON         ?= python3
 VENV_DIR       ?= .venv
 VENV_BIN       := $(VENV_DIR)/bin
 PIP            := $(VENV_BIN)/pip
-MKDOCS         := $(VENV_BIN)/mkdocs
+ZENSICAL       := $(VENV_BIN)/zensical
 
 DOCS_REQS      := requirements-docs.txt
 DOCS_PORT      ?= 8766
@@ -59,11 +59,11 @@ docs-install: $(VENV_DIR) ## Install/refresh docs dependencies into .venv
 
 .PHONY: docs-serve
 docs-serve: docs-install ## Run local docs site at http://$(DOCS_BIND):$(DOCS_PORT)
-	$(MKDOCS) serve --dev-addr $(DOCS_BIND):$(DOCS_PORT)
+	$(ZENSICAL) serve --dev-addr $(DOCS_BIND):$(DOCS_PORT)
 
 .PHONY: docs-build
-docs-build: docs-install ## Build static site into ./site (strict — fails on broken refs)
-	$(MKDOCS) build --strict --clean
+docs-build: docs-install ## Build static site into ./site (strict — fails on broken links and anchors)
+	$(ZENSICAL) build --strict --clean
 	@echo "docs built → ./site"
 
 # markdownlint-cli, pinned like robotics-lab and flotilla; a local install of the same version is used when present.
