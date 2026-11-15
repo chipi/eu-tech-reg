@@ -25,7 +25,7 @@ its specification.
 | [UXS-009](UXS-009-coming-from-outside.md) | Coming from outside the EU | `outside` | Draft v0.1 · not built |
 | [UXS-010](UXS-010-re-reading-queue.md) | The re-reading queue | `queue` | Draft v0.1 · not built |
 | [UXS-011](UXS-011-for-agents.md) | For agents | `for-agents` | Draft v0.1 · not built |
-| [UXS-012](UXS-012-worked-examples.md) | Worked examples | `examples` | Draft v0.1 · not built; companies to be chosen |
+| [UXS-012](UXS-012-worked-examples.md) | Worked examples | `examples` | Draft v0.2 · not built; 14 companies agreed in outline |
 | [UXS-013](UXS-013-synthesized-reads.md) | Synthesized reads and the matrix | `reads` | Draft v0.1 · not built |
 
 "Reviewed" means Impeccable's independent finish review shipped the mockup on 2026-11-14 after three
